@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* =========================================================
+   DANCETUBE THEME v2.4
+   ========================================================= */
+
+:root {
+  --dt-accent-rgb: 183, 18, 255;
+  --dt-accent-soft: rgba(var(--dt-accent-rgb), 0.10);
+  --dt-accent-focus: rgba(var(--dt-accent-rgb), 0.32);
+  --dt-border: rgba(255, 255, 255, 0.08);
+
+  --dt-bg: #08080c;
+  --dt-bg-overlay: rgba(8, 8, 12, 0.94);
+  --dt-bg-elevated: rgba(14, 14, 20, 0.88);
+  --dt-bg-dialog: rgba(18, 18, 26, 0.94);
+  --dt-panel: rgba(17, 17, 24, 0.88);
+
+  --dt-text: #f6f3fb;
+  --dt-muted: #c9bdd8;
+
+  --dt-radius: 12px;
+  --dt-radius-lg: 16px;
+  --dt-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+  --dt-scrollbar-thumb: rgba(183, 18, 255, 0.26);
+  --dt-transition: 0.15s ease;
+}
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+html,
+body,
+.skinBody,
+.backgroundContainer {
+  background: var(--dt-bg) !important;
+  color: var(--dt-text) !important;
+}
+
+body,
+.skinBody,
+.dialog,
+.paperList,
+.emby-input,
+.emby-textarea,
+.emby-select-withcolor,
+.emby-button,
+.button-flat,
+.headerButton,
+.paper-icon-button-light {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+.backgroundContainer.withBackdrop,
+.layout-tv .backgroundContainer {
+  background:
+    radial-gradient(circle at top left, rgba(var(--dt-accent-rgb), 0.12), transparent 26%),
+    linear-gradient(180deg, #0d0c12 0%, #08080c 100%) !important;
+}
+
+.backdropImage {
+  filter: blur(14px) saturate(108%) brightness(32%) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+.pageTitle,
+.sectionTitle,
+.itemName {
+  color: var(--dt-text) !important;
+}
+
+a {
+  color: var(--dt-text) !important;
+  text-decoration-color: rgba(var(--dt-accent-rgb), 0.35) !important;
+  transition: text-decoration-color var(--dt-transition) !important;
+}
+
+a:hover {
+  text-decoration-color: rgba(var(--dt-accent-rgb), 0.75) !important;
+}
+
+.secondary,
+.secondaryText,
+.fieldDescription,
+.listItemBodyText {
+  color: var(--dt-muted) !important;
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.skinHeader {
+  background: linear-gradient(180deg, var(--dt-bg-overlay), rgba(8, 8, 12, 0.45)) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+  position: relative !important;
+  min-height: 118px !important;
+  padding-bottom: 10px !important;
+}
+
+.skinHeader::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  width: 360px;
+  max-width: 42vw;
+  height: 76px;
+  background: url("https://assets.venjones.com/dancetube3.png") center / contain no-repeat;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.headerTabs {
+  margin-top: 34px !important;
+}
+
+.headerButton,
+.paper-icon-button-light {
+  color: var(--dt-text) !important;
+  border-radius: 10px !important;
+  padding: 8px !important;
+  transition: background var(--dt-transition) !important;
+}
+
+.headerButton:hover,
+.paper-icon-button-light:hover {
+  background: var(--dt-accent-soft) !important;
+}
+
+.mainAnimatedPages {
+  padding-top: 70px !important;
+}
+
+.pageTitleWithLogo {
+  background: none !important;
+  min-height: 42px !important;
+  padding-left: 0 !important;
+}
+
+.pageTitleWithLogo .pageTitle {
+  display: none !important;
+}
+
+/* =========================================================
+   SIDEBAR / DRAWER
+   ========================================================= */
+
+.mainDrawer,
+.adminDrawer {
+  background: var(--dt-bg-overlay) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.imgLogoIcon,
+.sidebarLogo img,
+.sidebarLogo .imgLogoIcon,
+.adminDrawerLogo img,
+.adminDrawerLogo .imgLogoIcon,
+.pageTitleWithLogo .imgLogoIcon,
+#loginPage .imgLogoIcon {
+  display: none !important;
+}
+
+.sidebarLogo,
+.adminDrawerLogo {
+  position: relative !important;
+  min-height: 48px !important;
+}
+
+.sidebarLogo::before,
+.adminDrawerLogo::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background: url("https://assets.venjones.com/dancetube-logo.png") center / contain no-repeat !important;
+  z-index: 4;
+}
+
+.mainDrawer a:first-of-type,
+.adminDrawer a:first-of-type {
+  position: relative !important;
+}
+
+.mainDrawer a:first-of-type::before,
+.adminDrawer a:first-of-type::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background: url("https://assets.venjones.com/dancetube-logo.png") center / contain no-repeat !important;
+  z-index: 4;
+}
+
+.sidebarLogo a,
+.adminDrawerLogo a,
+.mainDrawer a:first-of-type,
+.adminDrawer a:first-of-type {
+  padding-left: 48px !important;
+}
+
+.mainDrawer .navMenuOption,
+.adminDrawer .navMenuOption {
+  border-radius: 10px !important;
+  margin: 2px 12px !important;
+  padding: 10px 16px !important;
+  min-height: 44px !important;
+  color: var(--dt-text) !important;
+  transition: background var(--dt-transition) !important;
+}
+
+.mainDrawer .navMenuOption:hover,
+.adminDrawer .navMenuOption:hover {
+  background: var(--dt-accent-soft) !important;
+}
+
+.navMenuOption-selected,
+.navMenuOption-selected:hover {
+  background: rgba(var(--dt-accent-rgb), 0.16) !important;
+}
+
+.sidebarSectionTitle,
+.mainDrawer .sectionTitle {
+  color: rgba(255, 255, 255, 0.50) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  padding: 16px 16px 6px !important;
+}
+
+/* =========================================================
+   LOGIN
+   ========================================================= */
+
+#loginPage {
+  background:
+    radial-gradient(circle at top left, rgba(var(--dt-accent-rgb), 0.16), transparent 24%),
+    linear-gradient(180deg, #0b0a10 0%, #08080c 100%) !important;
+}
+
+#loginPage .padded-left.padded-right.flex.align-items-center.justify-content-center::before {
+  content: "";
+  display: block;
+  width: 420px;
+  max-width: 85vw;
+  height: 170px;
+  margin: 0 auto 16px auto;
+  background: url("https://assets.venjones.com/dancetube3.png") center center / contain no-repeat;
+}
+
+#loginPage h1,
+#loginPage h2,
+#loginPage .pageTitle,
+#loginPage .sectionTitle,
+#loginPage .readOnlyContent h1,
+#loginPage .readOnlyContent h2 {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+}
+
+.manualLoginForm,
+.visualLoginForm {
+  background: var(--dt-bg-elevated) !important;
+  border: 1px solid rgba(var(--dt-accent-rgb), 0.12) !important;
+  border-radius: var(--dt-radius-lg) !important;
+  box-shadow: var(--dt-shadow) !important;
+  padding: 24px !important;
+  max-width: 420px !important;
+  margin: 0 auto !important;
+}
+
+/* =========================================================
+   PANELS / DIALOGS
+   ========================================================= */
+
+.dialog,
+.paperList,
+.itemSelectionPanel {
+  background: var(--dt-panel) !important;
+  border: 1px solid var(--dt-border) !important;
+  border-radius: 14px !important;
+  box-shadow: var(--dt-shadow) !important;
+}
+
+.formDialogHeader,
+.formDialogFooter {
+  background: var(--dt-bg-dialog) !important;
+}
+
+.formDialogHeader {
+  border-radius: 14px 14px 0 0 !important;
+  padding: 16px 20px !important;
+}
+
+.formDialogFooter {
+  border-radius: 0 0 14px 14px !important;
+  padding: 12px 20px !important;
+}
+
+.toast {
+  border-radius: 14px !important;
+  padding: 12px 20px !important;
+}
+
+/* =========================================================
+   BUTTONS / INPUTS
+   ========================================================= */
+
+.emby-button,
+.button-submit,
+.button-flat,
+.raised,
+.fab {
+  border-radius: var(--dt-radius) !important;
+  margin-right: 8px !important;
+  margin-bottom: 8px !important;
+  padding: 10px 20px !important;
+  transition: filter var(--dt-transition), transform 0.1s ease, background var(--dt-transition), box-shadow var(--dt-transition) !important;
+}
+
+.emby-button,
+.button-submit,
+.raised {
+  background: linear-gradient(180deg, rgba(var(--dt-accent-rgb), 0.92), rgba(100, 5, 175, 0.96)) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.emby-button:hover,
+.button-submit:hover,
+.raised:hover {
+  filter: brightness(1.12) !important;
+}
+
+.emby-button:active,
+.button-submit:active,
+.raised:active {
+  filter: brightness(0.88) !important;
+  transform: scale(0.97) !important;
+}
+
+.button-flat {
+  background: var(--dt-accent-soft) !important;
+  color: var(--dt-text) !important;
+  border: 1px solid rgba(var(--dt-accent-rgb), 0.12) !important;
+}
+
+.button-flat:hover {
+  background: rgba(var(--dt-accent-rgb), 0.16) !important;
+}
+
+.button-flat:active {
+  background: rgba(var(--dt-accent-rgb), 0.22) !important;
+  transform: scale(0.97) !important;
+}
+
+.emby-button:focus-visible,
+.button-submit:focus-visible,
+.button-flat:focus-visible,
+.raised:focus-visible,
+.fab:focus-visible {
+  outline: 2px solid rgba(var(--dt-accent-rgb), 0.7) !important;
+  outline-offset: 2px !important;
+}
+
+.emby-input,
+.emby-textarea,
+.emby-select-withcolor {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: var(--dt-text) !important;
+  border-radius: var(--dt-radius) !important;
+  padding: 10px 14px !important;
+  transition: border-color var(--dt-transition), box-shadow var(--dt-transition) !important;
+}
+
+.emby-input:focus,
+.emby-textarea:focus,
+.emby-select-withcolor:focus {
+  border-color: var(--dt-accent-focus) !important;
+  box-shadow: 0 0 0 3px rgba(var(--dt-accent-rgb), 0.10) !important;
+}
+
+.detailPagePrimaryContainer > *,
+.mainDetailButtons > *,
+.formDialogFooter > * {
+  margin-right: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+/* =========================================================
+   SAFE MEDIA RULES ONLY
+   ========================================================= */
+
+.cardImage,
+.cardImageContainer,
+.cardPadder,
+.primaryImageWrapper > img,
+.itemDetailImage,
+.nowPlayingPageImage,
+.upNextDialog-poster-img,
+.upNextContainer {
+  border-radius: var(--dt-radius) !important;
+}
+
+.cardImage img,
+.cardImageContainer img,
+.primaryImageWrapper img,
+.itemDetailImage img {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* DO NOT TOUCH PLAYER CONTROLS / OSD / VIDEO ELEMENTS */
+
+/* =========================================================
+   POLISH
+   ========================================================= */
+
+.countIndicator,
+.playedIndicator,
+.missingIndicator,
+.unairedIndicator,
+.taskProgressOuter,
+.taskProgressInner,
+.mdl-slider::-webkit-slider-thumb,
+.mdl-slider::-moz-range-thumb,
+.mdl-slider::-ms-thumb,
+::-webkit-scrollbar-thumb {
+  border-radius: 999px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dt-scrollbar-thumb) !important;
+}
+
+html {
+  scrollbar-width: thin !important;
+  scrollbar-color: var(--dt-scrollbar-thumb) transparent !important;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 600px) {
+  .skinHeader {
+    min-height: 82px !important;
+    padding-bottom: 6px !important;
+  }
+
+  .skinHeader::after {
+    height: 48px;
+    top: 6px;
+    max-width: 60vw;
+  }
+
+  .headerTabs {
+    margin-top: 16px !important;
+  }
+
+  .mainAnimatedPages {
+    padding-top: 36px !important;
+  }
+
+  #loginPage .padded-left.padded-right.flex.align-items-center.justify-content-center::before {
+    height: 110px;
+    margin-bottom: 12px;
+  }
+
+  .manualLoginForm,
+  .visualLoginForm {
+    padding: 18px !important;
+    border-radius: var(--dt-radius) !important;
+  }
+
+  .mainDrawer .navMenuOption,
+  .adminDrawer .navMenuOption {
+    margin: 2px 8px !important;
+    padding: 10px 12px !important;
+  }
+}
+
+/* =========================================================
+   CAST STYLING
+   ========================================================= */
+
+#castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata,
+#castContent .card.overflowPortraitCard.personCard.card-withuserdata {
+  width: 4.2cm !important;
+  font-size: 90% !important;
+}
+
+#castContent .cardContent-button.cardImageContainer.coveredImage.cardContent.cardContent-shadow.itemAction.lazy,
+#castContent .cardContent-button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground1.cardContent.cardContent-shadow.itemAction,
+#castContent .cardContent-button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground2.cardContent.cardContent-shadow.itemAction,
+#castContent .cardContent-button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground3.cardContent.cardContent-shadow.itemAction,
+#castContent .cardContent-button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground4.cardContent.cardContent-shadow.itemAction,
+#castContent .cardContent-button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground5.cardContent.cardContent-shadow.itemAction {
+  background-size: cover !important;
+  border-radius: 2.5cm !important;
+}
+
+#castContent .cardScalable {
+  width: 3.8cm !important;
+  height: 3.8cm !important;
+  border-radius: 2.5cm !important;
+}
+
+#castContent .cardOverlayContainer.itemAction {
+  border-radius: 2.5cm !important;
+}
+
+#castContent .cardOverlayButton-br {
+  bottom: 4% !important;
+  right: 15% !important;
+  width: 70% !important;
+}
+
+#castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {
+  margin: auto !important;
+}
+
+#castCollapsible {
+  display: block !important;
+}
