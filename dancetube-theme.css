@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   AEDC TUBE THEME v3.1
+   AEDC TUBE THEME v3.2
    ========================================================= */
 
 :root {
@@ -18,8 +18,10 @@
   --dt-bg-dialog: rgba(16, 16, 16, 0.96);
   --dt-panel: rgba(10, 10, 10, 0.90);
 
-  --dt-text: #ffffff;
-  --dt-muted: rgba(255, 255, 255, 0.62);
+  --dt-text: #e8e0dc;
+  --dt-heading: #fff1ed;
+  --dt-card-text: rgba(255, 224, 218, 0.88);
+  --dt-muted: rgba(255, 185, 178, 0.58);
 
   --dt-radius: 6px;
   --dt-radius-lg: 8px;
@@ -74,6 +76,8 @@ body,
   font-size: var(--dt-font-size) !important;
 }
 
+/* cardText colors defined above with h1-h4 block */
+
 .backgroundContainer.withBackdrop,
 .layout-tv .backgroundContainer {
   background:
@@ -92,9 +96,22 @@ h4,
 .pageTitle,
 .sectionTitle,
 .itemName {
-  color: var(--dt-text) !important;
+  color: var(--dt-heading) !important;
   font-size: var(--dt-font-size-lg) !important;
   line-height: 1.35 !important;
+}
+
+.cardText,
+.cardFooter .cardText,
+.cardBox .cardText {
+  color: var(--dt-card-text) !important;
+  font-weight: 500 !important;
+}
+
+.cardText-secondary,
+.cardFooter .cardText-secondary {
+  color: var(--dt-muted) !important;
+  font-weight: 400 !important;
 }
 
 a {
@@ -559,13 +576,26 @@ html {
 
 .sectionTitle,
 .sectionTitleContainer-cards .sectionTitle {
-  color: var(--dt-text) !important;
-  letter-spacing: 0.01em !important;
+  color: var(--dt-heading) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.03em !important;
+  text-shadow: 0 0 18px rgba(var(--dt-accent-rgb), 0.28) !important;
 }
 
 .sectionTitleContainer-cards {
   border-left: 3px solid rgb(var(--dt-accent-rgb)) !important;
   padding-left: 10px !important;
+  margin-bottom: 4px !important;
+}
+
+.homeSectionsContainer .cardText,
+.itemsContainer .cardText {
+  color: var(--dt-card-text) !important;
+}
+
+.homeSectionsContainer .cardText-secondary,
+.itemsContainer .cardText-secondary {
+  color: var(--dt-muted) !important;
 }
 
 /* =========================================================
