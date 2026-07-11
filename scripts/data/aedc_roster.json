@@ -1,0 +1,3822 @@
+{
+  "schema_version": "1.0",
+  "dataset": "AEDC 2025-2026 company dancers and competition routines",
+  "studio": "Artistic Edge Dance Center",
+  "season": "2025-2026",
+  "scope": "Competition routines only; recital-only/non-competition numbers excluded.",
+  "source_files": [
+    "AEDC_2025_2026_Teams_and_Dancers_UPDATED.json",
+    "04_AEDC_2026_ROUTINES.json",
+    "03_AEDC_2026_ROUTINES.md",
+    "10_DANCER_ROSTERS_AND_IMPACT.md"
+  ],
+  "notes": [
+    "Dancer-to-routine membership is generated from explicit dancers listed in the 2026 routine database.",
+    "Company team labels are from the 2025-2026 Teams and Dancers source; some dancers appear in competition routines but do not have a team label in that file.",
+    "Routines with no explicit dancer roster in the source were not assigned to dancers.",
+    "Image fields are intentionally null because no verified individual image source was provided in the dataset."
+  ],
+  "counts": {
+    "dancers": 75,
+    "competition_routines_with_rosters": 32,
+    "competition_routine_entries": 214
+  },
+  "dancers": [
+    {
+      "name": "Milania Baron",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Pearl"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Splish Splash",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 438; Sat Apr 18 arrival 12:30 PM, dance 2:29 PM",
+          "believe_schedule": "Entry 204; Sat Apr 25 arrival 10:15 AM, dance 12:10 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "milania_baron.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Betty Batycki",
+      "aliases": [
+        "Anabeth Batycki"
+      ],
+      "company_teams_2025_2026": [
+        "Opal",
+        "Sapphire"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Surf Crazy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Tap",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Michelle Malone",
+          "starpower_schedule": "Entry 408; Sat Apr 18 arrival 11:00 AM, dance 1:05 PM",
+          "believe_schedule": "Entry 241; Sat Apr 25 arrival 12:00 PM, dance 2:04 PM"
+        },
+        {
+          "routine_name": "Rich Girls",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 8",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 455; Sat Apr 18 arrival 1:30 PM, dance 3:28 PM",
+          "believe_schedule": "Entry 231; Sat Apr 25 arrival 11:30 AM, dance 1:30 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "betty_batycki.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Juliette Batycki",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Supercali",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Musical Theater",
+          "age_group": "15-19",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 785; Sun Apr 19 arrival 4:30 PM, dance 6:20 PM",
+          "believe_schedule": "Entry 512; Sun Apr 26 arrival 10:00 AM, dance 12:06 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "juliette_batycki.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Olivia Batycki",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Snowing",
+          "size_type": "duet/trio",
+          "level": "Elite",
+          "category": "Contemporary/Lyrical per source context",
+          "age_group": "15-19",
+          "choreographer": "TBD",
+          "starpower_schedule": "Entry 683; Sun Apr 19 arrival 10:45 AM, dance 11:43 AM",
+          "believe_schedule": "Entry 671; Sun Apr 26 arrival 7:00 PM, dance 8:01 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Supercali",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Musical Theater",
+          "age_group": "15-19",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 785; Sun Apr 19 arrival 4:30 PM, dance 6:20 PM",
+          "believe_schedule": "Entry 512; Sun Apr 26 arrival 10:00 AM, dance 12:06 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "olivia_batycki.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Audrey Van Beek",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "Arabian Nights",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 705; Sun Apr 19 arrival 11:30 AM, dance 1:36 PM",
+          "believe_schedule": "Entry 501; Sun Apr 26 arrival 9:30 AM, dance 11:33 AM"
+        },
+        {
+          "routine_name": "Clumsy",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "unknown",
+          "age_group": "12-14",
+          "choreographer": "TBD",
+          "starpower_schedule": "Entry 716; Sun Apr 19 arrival 12:15 PM, dance 2:17 PM (source typo may show AM)",
+          "believe_schedule": "Entry 518; Sun Apr 26 arrival 10:30 AM, dance 12:22 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Stand Up For Love",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Lyrical/Contemporary context",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 736; Sun Apr 19 arrival 1:30 PM, dance 3:27 PM",
+          "believe_schedule": "Entry 547; Sun Apr 26 arrival 12:00 PM, dance 1:54 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "audrey_van_beek.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Elliece Van Beek",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "Arabian Nights",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 705; Sun Apr 19 arrival 11:30 AM, dance 1:36 PM",
+          "believe_schedule": "Entry 501; Sun Apr 26 arrival 9:30 AM, dance 11:33 AM"
+        },
+        {
+          "routine_name": "Clumsy",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "unknown",
+          "age_group": "12-14",
+          "choreographer": "TBD",
+          "starpower_schedule": "Entry 716; Sun Apr 19 arrival 12:15 PM, dance 2:17 PM (source typo may show AM)",
+          "believe_schedule": "Entry 518; Sun Apr 26 arrival 10:30 AM, dance 12:22 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Heaven I Know",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "12-14",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 780; Sun Apr 19 arrival 4:00 PM, dance 6:06 PM",
+          "believe_schedule": "Entry 536; Sun Apr 26 arrival 11:30 AM, dance 1:20 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "elliece_van_beek.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Rosalie Van Beek",
+      "aliases": [
+        "Rosalie VanBeek",
+        "Rosalie Vanbeek"
+      ],
+      "company_teams_2025_2026": [
+        "Opal",
+        "Pearl"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Surf Crazy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Tap",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Michelle Malone",
+          "starpower_schedule": "Entry 408; Sat Apr 18 arrival 11:00 AM, dance 1:05 PM",
+          "believe_schedule": "Entry 241; Sat Apr 25 arrival 12:00 PM, dance 2:04 PM"
+        },
+        {
+          "routine_name": "Splish Splash",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 438; Sat Apr 18 arrival 12:30 PM, dance 2:29 PM",
+          "believe_schedule": "Entry 204; Sat Apr 25 arrival 10:15 AM, dance 12:10 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "rosalie_van_beek.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Paislee Bledsoe",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Opal",
+        "Pearl"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Surf Crazy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Tap",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Michelle Malone",
+          "starpower_schedule": "Entry 408; Sat Apr 18 arrival 11:00 AM, dance 1:05 PM",
+          "believe_schedule": "Entry 241; Sat Apr 25 arrival 12:00 PM, dance 2:04 PM"
+        },
+        {
+          "routine_name": "Splish Splash",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 438; Sat Apr 18 arrival 12:30 PM, dance 2:29 PM",
+          "believe_schedule": "Entry 204; Sat Apr 25 arrival 10:15 AM, dance 12:10 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "paislee_bledsoe.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Lily Bonini",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Ruby"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Intrusive Thoughts",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "13",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 117; Fri Apr 17 arrival 3:30 PM, dance 4:40 PM",
+          "believe_schedule": "Entry 355; Sat Apr 25 arrival 6:15 PM, dance 7:11 PM"
+        },
+        {
+          "routine_name": "Le Freak",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 715; Sun Apr 19 arrival 12:15 PM, dance 2:15 PM",
+          "believe_schedule": "Entry 517; Sun Apr 26 arrival 10:30 AM, dance 12:20 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Stand Up For Love",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Lyrical/Contemporary context",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 736; Sun Apr 19 arrival 1:30 PM, dance 3:27 PM",
+          "believe_schedule": "Entry 547; Sun Apr 26 arrival 12:00 PM, dance 1:54 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "lily_bonini.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Dawson Brown",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Opal",
+        "Pearl"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Surf Crazy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Tap",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Michelle Malone",
+          "starpower_schedule": "Entry 408; Sat Apr 18 arrival 11:00 AM, dance 1:05 PM",
+          "believe_schedule": "Entry 241; Sat Apr 25 arrival 12:00 PM, dance 2:04 PM"
+        },
+        {
+          "routine_name": "Splish Splash",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 438; Sat Apr 18 arrival 12:30 PM, dance 2:29 PM",
+          "believe_schedule": "Entry 204; Sat Apr 25 arrival 10:15 AM, dance 12:10 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "dawson_brown.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Eowyn Brown",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Ruby"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Le Freak",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 715; Sun Apr 19 arrival 12:15 PM, dance 2:15 PM",
+          "believe_schedule": "Entry 517; Sun Apr 26 arrival 10:30 AM, dance 12:20 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Stand Up For Love",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Lyrical/Contemporary context",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 736; Sun Apr 19 arrival 1:30 PM, dance 3:27 PM",
+          "believe_schedule": "Entry 547; Sun Apr 26 arrival 12:00 PM, dance 1:54 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "eowyn_brown.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Emmy Cameron",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Opal"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Surf Crazy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Tap",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Michelle Malone",
+          "starpower_schedule": "Entry 408; Sat Apr 18 arrival 11:00 AM, dance 1:05 PM",
+          "believe_schedule": "Entry 241; Sat Apr 25 arrival 12:00 PM, dance 2:04 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "emmy_cameron.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Maya Carmenates",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Supercali",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Musical Theater",
+          "age_group": "15-19",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 785; Sun Apr 19 arrival 4:30 PM, dance 6:20 PM",
+          "believe_schedule": "Entry 512; Sun Apr 26 arrival 10:00 AM, dance 12:06 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "maya_carmenates.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Aubrie Childers",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Pearl"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Splish Splash",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 438; Sat Apr 18 arrival 12:30 PM, dance 2:29 PM",
+          "believe_schedule": "Entry 204; Sat Apr 25 arrival 10:15 AM, dance 12:10 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "aubrie_childers.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Adelyn Collins-Price",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Poison",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Contemporary",
+          "age_group": "9-11 / Age 11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 459; Sat Apr 18 arrival 1:45 PM, dance 3:43 PM",
+          "believe_schedule": "Entry 220; Sat Apr 25 arrival 11:00 AM, dance 12:55 PM"
+        },
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "adelyn_collins_price.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Anna-Jane Compton",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Stiletto",
+          "size_type": "solo",
+          "level": "Elite/Iconic context",
+          "category": "Jazz",
+          "age_group": "14",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 160; Fri Apr 17 arrival 5:30 PM, dance 6:29 PM",
+          "believe_schedule": "Entry 421; Sun Apr 26 arrival 8:00 AM, dance 9:01 AM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "anna_jane_compton.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Chloe Constantine",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Ruby"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Leave It There",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "12",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 107; Fri Apr 17 arrival 3:15 PM, dance 4:15 PM",
+          "believe_schedule": "Entry 351; Sat Apr 25 arrival 6:00 PM, dance 7:00 PM"
+        },
+        {
+          "routine_name": "Arabian Nights",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 705; Sun Apr 19 arrival 11:30 AM, dance 1:36 PM",
+          "believe_schedule": "Entry 501; Sun Apr 26 arrival 9:30 AM, dance 11:33 AM"
+        },
+        {
+          "routine_name": "Le Freak",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 715; Sun Apr 19 arrival 12:15 PM, dance 2:15 PM",
+          "believe_schedule": "Entry 517; Sun Apr 26 arrival 10:30 AM, dance 12:20 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Stand Up For Love",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Lyrical/Contemporary context",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 736; Sun Apr 19 arrival 1:30 PM, dance 3:27 PM",
+          "believe_schedule": "Entry 547; Sun Apr 26 arrival 12:00 PM, dance 1:54 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "chloe_constantine.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Vivian Covington-Kolb",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Supercali",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Musical Theater",
+          "age_group": "15-19",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 785; Sun Apr 19 arrival 4:30 PM, dance 6:20 PM",
+          "believe_schedule": "Entry 512; Sun Apr 26 arrival 10:00 AM, dance 12:06 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "vivian_covington_kolb.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Caroline Cox",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Amethyst",
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Poison",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Contemporary",
+          "age_group": "9-11 / Age 11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 459; Sat Apr 18 arrival 1:45 PM, dance 3:43 PM",
+          "believe_schedule": "Entry 220; Sat Apr 25 arrival 11:00 AM, dance 12:55 PM"
+        },
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Topsy Turvy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 746; Sun Apr 19 arrival 2:00 PM, dance 3:57 PM",
+          "believe_schedule": "Entry 506; Sun Apr 26 arrival 9:45 AM, dance 11:47 AM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "caroline_cox.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Margaret Davis",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "Clumsy",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "unknown",
+          "age_group": "12-14",
+          "choreographer": "TBD",
+          "starpower_schedule": "Entry 716; Sun Apr 19 arrival 12:15 PM, dance 2:17 PM (source typo may show AM)",
+          "believe_schedule": "Entry 518; Sun Apr 26 arrival 10:30 AM, dance 12:22 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "margaret_davis.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Avery Daw",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Poison",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Contemporary",
+          "age_group": "9-11 / Age 11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 459; Sat Apr 18 arrival 1:45 PM, dance 3:43 PM",
+          "believe_schedule": "Entry 220; Sat Apr 25 arrival 11:00 AM, dance 12:55 PM"
+        },
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "avery_daw.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Olivia Deldevert",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "Turn You Into Stone",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "12",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 106; Fri Apr 17 arrival 3:15 PM, dance 4:12 PM",
+          "believe_schedule": "Entry 352; Sat Apr 25 arrival 6:00 PM, dance 7:02 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Heaven I Know",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "12-14",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 780; Sun Apr 19 arrival 4:00 PM, dance 6:06 PM",
+          "believe_schedule": "Entry 536; Sun Apr 26 arrival 11:30 AM, dance 1:20 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "olivia_deldevert.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Arianna Eke",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Amethyst"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Topsy Turvy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 746; Sun Apr 19 arrival 2:00 PM, dance 3:57 PM",
+          "believe_schedule": "Entry 506; Sun Apr 26 arrival 9:45 AM, dance 11:47 AM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "arianna_eke.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Verni Fairchilds",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Stand Up For Love",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Lyrical/Contemporary context",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 736; Sun Apr 19 arrival 1:30 PM, dance 3:27 PM",
+          "believe_schedule": "Entry 547; Sun Apr 26 arrival 12:00 PM, dance 1:54 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "verni_fairchilds.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Olivia Farinella-Lakadosch",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Amethyst"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Topsy Turvy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 746; Sun Apr 19 arrival 2:00 PM, dance 3:57 PM",
+          "believe_schedule": "Entry 506; Sun Apr 26 arrival 9:45 AM, dance 11:47 AM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "olivia_farinella_lakadosch.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Carys Fernandez",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Sapphire"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Rich Girls",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 8",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 455; Sat Apr 18 arrival 1:30 PM, dance 3:28 PM",
+          "believe_schedule": "Entry 231; Sat Apr 25 arrival 11:30 AM, dance 1:30 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "carys_fernandez.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Jasmine Gilchrist",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Ruby"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Smooth Criminal",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Jazz",
+          "age_group": "12",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 125; Fri Apr 17 arrival 4:00 PM, dance 5:00 PM",
+          "believe_schedule": "Entry 372; Sat Apr 25 arrival 7:00 PM, dance 7:59 PM"
+        },
+        {
+          "routine_name": "The Rose",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Lyrical",
+          "age_group": "12",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 132; Fri Apr 17 arrival 4:15 PM, dance 5:18 PM",
+          "believe_schedule": "Entry 380; Sat Apr 25 arrival 7:15 PM, dance 8:22 PM"
+        },
+        {
+          "routine_name": "Arabian Nights",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 705; Sun Apr 19 arrival 11:30 AM, dance 1:36 PM",
+          "believe_schedule": "Entry 501; Sun Apr 26 arrival 9:30 AM, dance 11:33 AM"
+        },
+        {
+          "routine_name": "Le Freak",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 715; Sun Apr 19 arrival 12:15 PM, dance 2:15 PM",
+          "believe_schedule": "Entry 517; Sun Apr 26 arrival 10:30 AM, dance 12:20 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Stand Up For Love",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Lyrical/Contemporary context",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 736; Sun Apr 19 arrival 1:30 PM, dance 3:27 PM",
+          "believe_schedule": "Entry 547; Sun Apr 26 arrival 12:00 PM, dance 1:54 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "jasmine_gilchrist.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Anna Green",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "Poison",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Contemporary",
+          "age_group": "9-11 / Age 11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 459; Sat Apr 18 arrival 1:45 PM, dance 3:43 PM",
+          "believe_schedule": "Entry 220; Sat Apr 25 arrival 11:00 AM, dance 12:55 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "anna_green.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Mary G Gullic",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Shoulder to Shoulder",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "16",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 214; Fri Apr 17 arrival 7:45 PM, dance 8:50 PM",
+          "believe_schedule": "Entry 611; Sun Apr 26 arrival 4:15 PM, dance 5:15 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "mary_g_gullic.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Mady Hickerson",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Poison",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Contemporary",
+          "age_group": "9-11 / Age 11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 459; Sat Apr 18 arrival 1:45 PM, dance 3:43 PM",
+          "believe_schedule": "Entry 220; Sat Apr 25 arrival 11:00 AM, dance 12:55 PM"
+        },
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "mady_hickerson.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Anslie Hill",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Aquamarine"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Beat It",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 6",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 402; Sat Apr 18 arrival 10:45 AM, dance 12:49 PM",
+          "believe_schedule": "Entry 211; Sat Apr 25 arrival 10:30 AM, dance 12:29 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "anslie_hill.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Stassi Holland",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Sapphire"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Conga",
+          "size_type": "duet/trio",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 336; Sat Apr 18 arrival 8:30 AM, dance 9:35 AM",
+          "believe_schedule": "Entry 117; Sat Apr 25 arrival 7:45 AM, dance 8:42 AM"
+        },
+        {
+          "routine_name": "Rich Girls",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 8",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 455; Sat Apr 18 arrival 1:30 PM, dance 3:28 PM",
+          "believe_schedule": "Entry 231; Sat Apr 25 arrival 11:30 AM, dance 1:30 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "stassi_holland.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Hailey Inman",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Poison",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Contemporary",
+          "age_group": "9-11 / Age 11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 459; Sat Apr 18 arrival 1:45 PM, dance 3:43 PM",
+          "believe_schedule": "Entry 220; Sat Apr 25 arrival 11:00 AM, dance 12:55 PM"
+        },
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "hailey_inman.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "June Jenkins",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "Arabian Nights",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 705; Sun Apr 19 arrival 11:30 AM, dance 1:36 PM",
+          "believe_schedule": "Entry 501; Sun Apr 26 arrival 9:30 AM, dance 11:33 AM"
+        },
+        {
+          "routine_name": "Clumsy",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "unknown",
+          "age_group": "12-14",
+          "choreographer": "TBD",
+          "starpower_schedule": "Entry 716; Sun Apr 19 arrival 12:15 PM, dance 2:17 PM (source typo may show AM)",
+          "believe_schedule": "Entry 518; Sun Apr 26 arrival 10:30 AM, dance 12:22 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Stand Up For Love",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Lyrical/Contemporary context",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 736; Sun Apr 19 arrival 1:30 PM, dance 3:27 PM",
+          "believe_schedule": "Entry 547; Sun Apr 26 arrival 12:00 PM, dance 1:54 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "june_jenkins.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Eden Johnson",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Aquamarine"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Beat It",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 6",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 402; Sat Apr 18 arrival 10:45 AM, dance 12:49 PM",
+          "believe_schedule": "Entry 211; Sat Apr 25 arrival 10:30 AM, dance 12:29 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "eden_johnson.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Jaidyn Johnson",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Bang Bang",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "16",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 212; Fri Apr 17 arrival 7:45 PM, dance 8:45 PM",
+          "believe_schedule": "Entry 608; Sun Apr 26 arrival 4:00 PM, dance 5:07 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "jaidyn_johnson.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Hudsen Jones",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Pearl"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "I2I",
+          "size_type": "solo",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 306; Sat Apr 18 arrival 7:15 AM, dance 8:17 AM",
+          "believe_schedule": "Entry 108; Sat Apr 25 arrival 7:15 AM, dance 8:18 AM"
+        },
+        {
+          "routine_name": "Splish Splash",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 438; Sat Apr 18 arrival 12:30 PM, dance 2:29 PM",
+          "believe_schedule": "Entry 204; Sat Apr 25 arrival 10:15 AM, dance 12:10 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "hudsen_jones.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Sariyah Jones",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "sariyah_jones.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Emberlee Kellough",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Sapphire"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Conga",
+          "size_type": "duet/trio",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 336; Sat Apr 18 arrival 8:30 AM, dance 9:35 AM",
+          "believe_schedule": "Entry 117; Sat Apr 25 arrival 7:45 AM, dance 8:42 AM"
+        },
+        {
+          "routine_name": "Rich Girls",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 8",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 455; Sat Apr 18 arrival 1:30 PM, dance 3:28 PM",
+          "believe_schedule": "Entry 231; Sat Apr 25 arrival 11:30 AM, dance 1:30 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "emberlee_kellough.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Ireland Kellough",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Sapphire"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Rich Girls",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 8",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 455; Sat Apr 18 arrival 1:30 PM, dance 3:28 PM",
+          "believe_schedule": "Entry 231; Sat Apr 25 arrival 11:30 AM, dance 1:30 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "ireland_kellough.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Kali Kramer",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Aquamarine",
+        "Opal"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Beat It",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 6",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 402; Sat Apr 18 arrival 10:45 AM, dance 12:49 PM",
+          "believe_schedule": "Entry 211; Sat Apr 25 arrival 10:30 AM, dance 12:29 PM"
+        },
+        {
+          "routine_name": "Surf Crazy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Tap",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Michelle Malone",
+          "starpower_schedule": "Entry 408; Sat Apr 18 arrival 11:00 AM, dance 1:05 PM",
+          "believe_schedule": "Entry 241; Sat Apr 25 arrival 12:00 PM, dance 2:04 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "kali_kramer.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Riley Lakadosch",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Aquamarine"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Beat It",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 6",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 402; Sat Apr 18 arrival 10:45 AM, dance 12:49 PM",
+          "believe_schedule": "Entry 211; Sat Apr 25 arrival 10:30 AM, dance 12:29 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "riley_lakadosch.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Chapel Lyle",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Amethyst",
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Poison",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Contemporary",
+          "age_group": "9-11 / Age 11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 459; Sat Apr 18 arrival 1:45 PM, dance 3:43 PM",
+          "believe_schedule": "Entry 220; Sat Apr 25 arrival 11:00 AM, dance 12:55 PM"
+        },
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Topsy Turvy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 746; Sun Apr 19 arrival 2:00 PM, dance 3:57 PM",
+          "believe_schedule": "Entry 506; Sun Apr 26 arrival 9:45 AM, dance 11:47 AM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "chapel_lyle.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Jayden Marshall",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Amethyst"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Topsy Turvy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 746; Sun Apr 19 arrival 2:00 PM, dance 3:57 PM",
+          "believe_schedule": "Entry 506; Sun Apr 26 arrival 9:45 AM, dance 11:47 AM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "jayden_marshall.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Emmaline Martin",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Supercali",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Musical Theater",
+          "age_group": "15-19",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 785; Sun Apr 19 arrival 4:30 PM, dance 6:20 PM",
+          "believe_schedule": "Entry 512; Sun Apr 26 arrival 10:00 AM, dance 12:06 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "emmaline_martin.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Lillian Martin",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Ruby"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Arabian Nights",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 705; Sun Apr 19 arrival 11:30 AM, dance 1:36 PM",
+          "believe_schedule": "Entry 501; Sun Apr 26 arrival 9:30 AM, dance 11:33 AM"
+        },
+        {
+          "routine_name": "Le Freak",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 715; Sun Apr 19 arrival 12:15 PM, dance 2:15 PM",
+          "believe_schedule": "Entry 517; Sun Apr 26 arrival 10:30 AM, dance 12:20 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Stand Up For Love",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Lyrical/Contemporary context",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 736; Sun Apr 19 arrival 1:30 PM, dance 3:27 PM",
+          "believe_schedule": "Entry 547; Sun Apr 26 arrival 12:00 PM, dance 1:54 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "lillian_martin.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Marlee Martin",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Pearl"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Splish Splash",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 438; Sat Apr 18 arrival 12:30 PM, dance 2:29 PM",
+          "believe_schedule": "Entry 204; Sat Apr 25 arrival 10:15 AM, dance 12:10 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "marlee_martin.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Natalie Martin",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Supercali",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Musical Theater",
+          "age_group": "15-19",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 785; Sun Apr 19 arrival 4:30 PM, dance 6:20 PM",
+          "believe_schedule": "Entry 512; Sun Apr 26 arrival 10:00 AM, dance 12:06 PM"
+        },
+        {
+          "routine_name": "White Lies",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "15",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 205; Fri Apr 17 arrival 7:30 PM, dance 8:28 PM",
+          "believe_schedule": "Entry 604; Sun Apr 26 arrival 4:00 PM, dance 4:56 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "natalie_martin.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Olivia Martin",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Sapphire"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Rich Girls",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 8",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 455; Sat Apr 18 arrival 1:30 PM, dance 3:28 PM",
+          "believe_schedule": "Entry 231; Sat Apr 25 arrival 11:30 AM, dance 1:30 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "olivia_martin.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Hayden Moser",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Sapphire"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Rich Girls",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 8",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 455; Sat Apr 18 arrival 1:30 PM, dance 3:28 PM",
+          "believe_schedule": "Entry 231; Sat Apr 25 arrival 11:30 AM, dance 1:30 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "hayden_moser.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Ella Mulligan",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "Arabian Nights",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 705; Sun Apr 19 arrival 11:30 AM, dance 1:36 PM",
+          "believe_schedule": "Entry 501; Sun Apr 26 arrival 9:30 AM, dance 11:33 AM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Heaven I Know",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "12-14",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 780; Sun Apr 19 arrival 4:00 PM, dance 6:06 PM",
+          "believe_schedule": "Entry 536; Sun Apr 26 arrival 11:30 AM, dance 1:20 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "ella_mulligan.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Emerson O’Dell",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "Clumsy",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "unknown",
+          "age_group": "12-14",
+          "choreographer": "TBD",
+          "starpower_schedule": "Entry 716; Sun Apr 19 arrival 12:15 PM, dance 2:17 PM (source typo may show AM)",
+          "believe_schedule": "Entry 518; Sun Apr 26 arrival 10:30 AM, dance 12:22 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Heaven I Know",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "12-14",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 780; Sun Apr 19 arrival 4:00 PM, dance 6:06 PM",
+          "believe_schedule": "Entry 536; Sun Apr 26 arrival 11:30 AM, dance 1:20 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "emerson_odell.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Emily Parker",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Supercali",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Musical Theater",
+          "age_group": "15-19",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 785; Sun Apr 19 arrival 4:30 PM, dance 6:20 PM",
+          "believe_schedule": "Entry 512; Sun Apr 26 arrival 10:00 AM, dance 12:06 PM"
+        },
+        {
+          "routine_name": "Dare",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Jazz",
+          "age_group": "17",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 238; Fri Apr 17 arrival 8:45 PM, dance 9:50 PM",
+          "believe_schedule": "Entry 629; Sun Apr 26 arrival 5:00 PM, dance 6:02 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "emily_parker.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Camden Picciuto",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Poison",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Contemporary",
+          "age_group": "9-11 / Age 11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 459; Sat Apr 18 arrival 1:45 PM, dance 3:43 PM",
+          "believe_schedule": "Entry 220; Sat Apr 25 arrival 11:00 AM, dance 12:55 PM"
+        },
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "camden_picciuto.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Charlotte Piechowiak",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Sapphire"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Rich Girls",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 8",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 455; Sat Apr 18 arrival 1:30 PM, dance 3:28 PM",
+          "believe_schedule": "Entry 231; Sat Apr 25 arrival 11:30 AM, dance 1:30 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "charlotte_piechowiak.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Ella Piechowiak",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Amethyst"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Poison",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Contemporary",
+          "age_group": "9-11 / Age 11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 459; Sat Apr 18 arrival 1:45 PM, dance 3:43 PM",
+          "believe_schedule": "Entry 220; Sat Apr 25 arrival 11:00 AM, dance 12:55 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Topsy Turvy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 746; Sun Apr 19 arrival 2:00 PM, dance 3:57 PM",
+          "believe_schedule": "Entry 506; Sun Apr 26 arrival 9:45 AM, dance 11:47 AM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "ella_piechowiak.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Avianna Porter",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Heaven I Know",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "12-14",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 780; Sun Apr 19 arrival 4:00 PM, dance 6:06 PM",
+          "believe_schedule": "Entry 536; Sun Apr 26 arrival 11:30 AM, dance 1:20 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "avianna_porter.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Olive Prucka",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "olive_prucka.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Magnolia Racela",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Aquamarine"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Beat It",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 6",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 402; Sat Apr 18 arrival 10:45 AM, dance 12:49 PM",
+          "believe_schedule": "Entry 211; Sat Apr 25 arrival 10:30 AM, dance 12:29 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "magnolia_racela.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Neve Racela",
+      "aliases": [
+        "Nevi Racela"
+      ],
+      "company_teams_2025_2026": [
+        "Ruby"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "I Can Only Imagine",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "12",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 108; Fri Apr 17 arrival 3:15 PM, dance 4:17 PM",
+          "believe_schedule": "Entry 350; Sat Apr 25 arrival 6:00 PM, dance 6:57 PM"
+        },
+        {
+          "routine_name": "Arabian Nights",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 705; Sun Apr 19 arrival 11:30 AM, dance 1:36 PM",
+          "believe_schedule": "Entry 501; Sun Apr 26 arrival 9:30 AM, dance 11:33 AM"
+        },
+        {
+          "routine_name": "Le Freak",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 715; Sun Apr 19 arrival 12:15 PM, dance 2:15 PM",
+          "believe_schedule": "Entry 517; Sun Apr 26 arrival 10:30 AM, dance 12:20 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Stand Up For Love",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Lyrical/Contemporary context",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 736; Sun Apr 19 arrival 1:30 PM, dance 3:27 PM",
+          "believe_schedule": "Entry 547; Sun Apr 26 arrival 12:00 PM, dance 1:54 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "neve_racela.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Summer Racela",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Supercali",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Musical Theater",
+          "age_group": "15-19",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 785; Sun Apr 19 arrival 4:30 PM, dance 6:20 PM",
+          "believe_schedule": "Entry 512; Sun Apr 26 arrival 10:00 AM, dance 12:06 PM"
+        },
+        {
+          "routine_name": "Skinny Love",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "15",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 207; Fri Apr 17 arrival 7:30 PM, dance 8:33 PM",
+          "believe_schedule": "Entry 602; Sun Apr 26 arrival 3:45 PM, dance 4:51 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "summer_racela.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Sabrina Rhoads",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Supercali",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Musical Theater",
+          "age_group": "15-19",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 785; Sun Apr 19 arrival 4:30 PM, dance 6:20 PM",
+          "believe_schedule": "Entry 512; Sun Apr 26 arrival 10:00 AM, dance 12:06 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "sabrina_rhoads.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Lila Sensiba",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "lila_sensiba.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Natalie Sensiba",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "natalie_sensiba.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Kennedy Sisk",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Aquamarine"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Beat It",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 6",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 402; Sat Apr 18 arrival 10:45 AM, dance 12:49 PM",
+          "believe_schedule": "Entry 211; Sat Apr 25 arrival 10:30 AM, dance 12:29 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "kennedy_sisk.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Quynn Snyder",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Diamond"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Snowing",
+          "size_type": "duet/trio",
+          "level": "Elite",
+          "category": "Contemporary/Lyrical per source context",
+          "age_group": "15-19",
+          "choreographer": "TBD",
+          "starpower_schedule": "Entry 683; Sun Apr 19 arrival 10:45 AM, dance 11:43 AM",
+          "believe_schedule": "Entry 671; Sun Apr 26 arrival 7:00 PM, dance 8:01 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Crazy",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Contemporary",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 739; Sun Apr 19 arrival 1:30 PM, dance 3:37 PM",
+          "believe_schedule": "Entry 561; Sun Apr 26 arrival 12:45 PM, dance 2:49 PM"
+        },
+        {
+          "routine_name": "Fade",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "15-19 / Senior",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 745; Sun Apr 19 arrival 2:00 PM, dance 3:54 PM",
+          "believe_schedule": "Entry 530; Sun Apr 26 arrival 11:00 AM, dance 1:03 PM"
+        },
+        {
+          "routine_name": "Supercali",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Musical Theater",
+          "age_group": "15-19",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 785; Sun Apr 19 arrival 4:30 PM, dance 6:20 PM",
+          "believe_schedule": "Entry 512; Sun Apr 26 arrival 10:00 AM, dance 12:06 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "quynn_snyder.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Ava Sommese",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Supercali",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Musical Theater",
+          "age_group": "15-19",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 785; Sun Apr 19 arrival 4:30 PM, dance 6:20 PM",
+          "believe_schedule": "Entry 512; Sun Apr 26 arrival 10:00 AM, dance 12:06 PM"
+        },
+        {
+          "routine_name": "Dragonfly",
+          "size_type": "solo",
+          "level": "Competitive",
+          "category": "Ballet",
+          "age_group": "17-19",
+          "choreographer": "Unknown",
+          "starpower_schedule": "Entry 229; Fri Apr 17 arrival 8:30 PM, dance 9:29 PM",
+          "believe_schedule": "Entry 619; Sun Apr 26 arrival 4:30 PM, dance 5:35 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "ava_sommese.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Allie State",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Ruby"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Le Freak",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 715; Sun Apr 19 arrival 12:15 PM, dance 2:15 PM",
+          "believe_schedule": "Entry 517; Sun Apr 26 arrival 10:30 AM, dance 12:20 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Stand Up For Love",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Lyrical/Contemporary context",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 736; Sun Apr 19 arrival 1:30 PM, dance 3:27 PM",
+          "believe_schedule": "Entry 547; Sun Apr 26 arrival 12:00 PM, dance 1:54 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "allie_state.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Hazel State",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Sapphire"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Rich Girls",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 8",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 455; Sat Apr 18 arrival 1:30 PM, dance 3:28 PM",
+          "believe_schedule": "Entry 231; Sat Apr 25 arrival 11:30 AM, dance 1:30 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "hazel_state.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Norah Stratton",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Poison",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Contemporary",
+          "age_group": "9-11 / Age 11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 459; Sat Apr 18 arrival 1:45 PM, dance 3:43 PM",
+          "believe_schedule": "Entry 220; Sat Apr 25 arrival 11:00 AM, dance 12:55 PM"
+        },
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "norah_stratton.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Vivienne VanBeek",
+      "aliases": [
+        "Vivienne Van Beek",
+        "Vivienne Vanbeek"
+      ],
+      "company_teams_2025_2026": [
+        "Opal",
+        "Sapphire"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Surf Crazy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Tap",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Michelle Malone",
+          "starpower_schedule": "Entry 408; Sat Apr 18 arrival 11:00 AM, dance 1:05 PM",
+          "believe_schedule": "Entry 241; Sat Apr 25 arrival 12:00 PM, dance 2:04 PM"
+        },
+        {
+          "routine_name": "Rich Girls",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 8",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 455; Sat Apr 18 arrival 1:30 PM, dance 3:28 PM",
+          "believe_schedule": "Entry 231; Sat Apr 25 arrival 11:30 AM, dance 1:30 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "vivienne_vanbeek.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Madden Walker",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Ruby"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Le Freak",
+          "size_type": "small group",
+          "level": "Competitive/Premier",
+          "category": "Jazz",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 715; Sun Apr 19 arrival 12:15 PM, dance 2:15 PM",
+          "believe_schedule": "Entry 517; Sun Apr 26 arrival 10:30 AM, dance 12:20 PM"
+        },
+        {
+          "routine_name": "Stand Up For Love",
+          "size_type": "large group/line context",
+          "level": "Competitive",
+          "category": "Lyrical/Contemporary context",
+          "age_group": "12-14",
+          "choreographer": "Kate Brown",
+          "starpower_schedule": "Entry 736; Sun Apr 19 arrival 1:30 PM, dance 3:27 PM",
+          "believe_schedule": "Entry 547; Sun Apr 26 arrival 12:00 PM, dance 1:54 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "madden_walker.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Mya Wright",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Emerald"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Bamm",
+          "size_type": "large group",
+          "level": "Showcase",
+          "category": "Hip Hop/Open per source context",
+          "age_group": "9-11",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 465; Sat Apr 18 arrival 2:00 PM, dance 4:00 PM",
+          "believe_schedule": "Entry 242; Sat Apr 25 arrival 12:00 PM, dance 2:07 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "mya_wright.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Katherine Wunder",
+      "aliases": [],
+      "company_teams_2025_2026": [],
+      "competition_routines": [
+        {
+          "routine_name": "Arabian Nights",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Musical Theater/Open context",
+          "age_group": "12-14",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 705; Sun Apr 19 arrival 11:30 AM, dance 1:36 PM",
+          "believe_schedule": "Entry 501; Sun Apr 26 arrival 9:30 AM, dance 11:33 AM"
+        },
+        {
+          "routine_name": "Clumsy",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "unknown",
+          "age_group": "12-14",
+          "choreographer": "TBD",
+          "starpower_schedule": "Entry 716; Sun Apr 19 arrival 12:15 PM, dance 2:17 PM (source typo may show AM)",
+          "believe_schedule": "Entry 518; Sun Apr 26 arrival 10:30 AM, dance 12:22 PM"
+        },
+        {
+          "routine_name": "MIB",
+          "size_type": "production/grand line/line context",
+          "level": "Competitive/Premier context",
+          "category": "Production/Open",
+          "age_group": "12 & Over / full company ecosystem",
+          "choreographer": "Madison Kellough + Kate Brown",
+          "starpower_schedule": "Entry 725; Sun Apr 19 arrival 12:45 PM, dance 2:46 PM",
+          "believe_schedule": "Entry 554; Sun Apr 26 arrival 12:15 PM, dance 2:19 PM"
+        },
+        {
+          "routine_name": "Heaven I Know",
+          "size_type": "small group",
+          "level": "Competitive",
+          "category": "Contemporary",
+          "age_group": "12-14",
+          "choreographer": "Josie",
+          "starpower_schedule": "Entry 780; Sun Apr 19 arrival 4:00 PM, dance 6:06 PM",
+          "believe_schedule": "Entry 536; Sun Apr 26 arrival 11:30 AM, dance 1:20 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "katherine_wunder.jpg",
+        "status": "not_provided"
+      }
+    },
+    {
+      "name": "Theadora Yearby",
+      "aliases": [],
+      "company_teams_2025_2026": [
+        "Aquamarine",
+        "Opal"
+      ],
+      "competition_routines": [
+        {
+          "routine_name": "Beat It",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Jazz",
+          "age_group": "8 & Under / Age 6",
+          "choreographer": "Madison Kellough",
+          "starpower_schedule": "Entry 402; Sat Apr 18 arrival 10:45 AM, dance 12:49 PM",
+          "believe_schedule": "Entry 211; Sat Apr 25 arrival 10:30 AM, dance 12:29 PM"
+        },
+        {
+          "routine_name": "Surf Crazy",
+          "size_type": "small group",
+          "level": "Showcase",
+          "category": "Tap",
+          "age_group": "8 & Under / Age 7",
+          "choreographer": "Michelle Malone",
+          "starpower_schedule": "Entry 408; Sat Apr 18 arrival 11:00 AM, dance 1:05 PM",
+          "believe_schedule": "Entry 241; Sat Apr 25 arrival 12:00 PM, dance 2:04 PM"
+        }
+      ],
+      "image": {
+        "profile_image_url": null,
+        "local_image_path": null,
+        "jellyfin_person_image_filename_suggestion": "theadora_yearby.jpg",
+        "status": "not_provided"
+      }
+    }
+  ],
+  "routines": [
+    {
+      "routine_name": "I2I",
+      "dancers": [
+        "Hudsen Jones"
+      ],
+      "size_type": "solo",
+      "level": "Showcase",
+      "category": "Jazz",
+      "age_group": "8 & Under / Age 7",
+      "choreographer": "Madison Kellough"
+    },
+    {
+      "routine_name": "Conga",
+      "dancers": [
+        "Stassi Holland",
+        "Emberlee Kellough"
+      ],
+      "size_type": "duet/trio",
+      "level": "Showcase",
+      "category": "Jazz",
+      "age_group": "8 & Under / Age 7",
+      "choreographer": "Madison Kellough"
+    },
+    {
+      "routine_name": "Snowing",
+      "dancers": [
+        "Olivia Batycki",
+        "Quynn Snyder"
+      ],
+      "size_type": "duet/trio",
+      "level": "Elite",
+      "category": "Contemporary/Lyrical per source context",
+      "age_group": "15-19",
+      "choreographer": "TBD"
+    },
+    {
+      "routine_name": "Beat It",
+      "dancers": [
+        "Anslie Hill",
+        "Eden Johnson",
+        "Kali Kramer",
+        "Riley Lakadosch",
+        "Magnolia Racela",
+        "Kennedy Sisk",
+        "Theadora Yearby"
+      ],
+      "size_type": "small group",
+      "level": "Showcase",
+      "category": "Jazz",
+      "age_group": "8 & Under / Age 6",
+      "choreographer": "Madison Kellough"
+    },
+    {
+      "routine_name": "Surf Crazy",
+      "dancers": [
+        "Betty Batycki",
+        "Paislee Bledsoe",
+        "Dawson Brown",
+        "Emmy Cameron",
+        "Kali Kramer",
+        "Rosalie Van Beek",
+        "Vivienne VanBeek",
+        "Theadora Yearby"
+      ],
+      "size_type": "small group",
+      "level": "Showcase",
+      "category": "Tap",
+      "age_group": "8 & Under / Age 7",
+      "choreographer": "Michelle Malone"
+    },
+    {
+      "routine_name": "Splish Splash",
+      "dancers": [
+        "Milania Baron",
+        "Paislee Bledsoe",
+        "Dawson Brown",
+        "Aubrie Childers",
+        "Hudsen Jones",
+        "Marlee Martin",
+        "Rosalie Van Beek"
+      ],
+      "size_type": "small group",
+      "level": "Showcase",
+      "category": "Jazz",
+      "age_group": "8 & Under / Age 7",
+      "choreographer": "Kate Brown"
+    },
+    {
+      "routine_name": "Rich Girls",
+      "dancers": [
+        "Betty Batycki",
+        "Carys Fernandez",
+        "Stassi Holland",
+        "Emberlee Kellough",
+        "Ireland Kellough",
+        "Olivia Martin",
+        "Hayden Moser",
+        "Charlotte Piechowiak",
+        "Hazel State",
+        "Vivienne VanBeek"
+      ],
+      "size_type": "large group",
+      "level": "Showcase",
+      "category": "Jazz",
+      "age_group": "8 & Under / Age 8",
+      "choreographer": "Kate Brown"
+    },
+    {
+      "routine_name": "Poison",
+      "dancers": [
+        "Adelyn Collins-Price",
+        "Caroline Cox",
+        "Avery Daw",
+        "Anna Green",
+        "Mady Hickerson",
+        "Hailey Inman",
+        "Chapel Lyle",
+        "Camden Picciuto",
+        "Ella Piechowiak",
+        "Norah Stratton"
+      ],
+      "size_type": "large group",
+      "level": "Showcase",
+      "category": "Contemporary",
+      "age_group": "9-11 / Age 11",
+      "choreographer": "Josie"
+    },
+    {
+      "routine_name": "Bamm",
+      "dancers": [
+        "Adelyn Collins-Price",
+        "Caroline Cox",
+        "Avery Daw",
+        "Mady Hickerson",
+        "Hailey Inman",
+        "Sariyah Jones",
+        "Chapel Lyle",
+        "Camden Picciuto",
+        "Olive Prucka",
+        "Natalie Sensiba",
+        "Lila Sensiba",
+        "Norah Stratton",
+        "Mya Wright"
+      ],
+      "size_type": "large group",
+      "level": "Showcase",
+      "category": "Hip Hop/Open per source context",
+      "age_group": "9-11",
+      "choreographer": "Josie"
+    },
+    {
+      "routine_name": "Turn You Into Stone",
+      "dancers": [
+        "Olivia Deldevert"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Contemporary",
+      "age_group": "12",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "Leave It There",
+      "dancers": [
+        "Chloe Constantine"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Contemporary",
+      "age_group": "12",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "I Can Only Imagine",
+      "dancers": [
+        "Neve Racela"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Contemporary",
+      "age_group": "12",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "Intrusive Thoughts",
+      "dancers": [
+        "Lily Bonini"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Contemporary",
+      "age_group": "13",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "Smooth Criminal",
+      "dancers": [
+        "Jasmine Gilchrist"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Jazz",
+      "age_group": "12",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "The Rose",
+      "dancers": [
+        "Jasmine Gilchrist"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Lyrical",
+      "age_group": "12",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "Stiletto",
+      "dancers": [
+        "Anna-Jane Compton"
+      ],
+      "size_type": "solo",
+      "level": "Elite/Iconic context",
+      "category": "Jazz",
+      "age_group": "14",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "Arabian Nights",
+      "dancers": [
+        "Chloe Constantine",
+        "Jasmine Gilchrist",
+        "June Jenkins",
+        "Lillian Martin",
+        "Ella Mulligan",
+        "Neve Racela",
+        "Audrey Van Beek",
+        "Elliece Van Beek",
+        "Katherine Wunder"
+      ],
+      "size_type": "small group",
+      "level": "Competitive",
+      "category": "Musical Theater/Open context",
+      "age_group": "12-14",
+      "choreographer": "Madison Kellough"
+    },
+    {
+      "routine_name": "Le Freak",
+      "dancers": [
+        "Lily Bonini",
+        "Eowyn Brown",
+        "Chloe Constantine",
+        "Jasmine Gilchrist",
+        "Lillian Martin",
+        "Neve Racela",
+        "Allie State",
+        "Madden Walker"
+      ],
+      "size_type": "small group",
+      "level": "Competitive/Premier",
+      "category": "Jazz",
+      "age_group": "12-14",
+      "choreographer": "Kate Brown"
+    },
+    {
+      "routine_name": "Clumsy",
+      "dancers": [
+        "Margaret Davis",
+        "June Jenkins",
+        "Emerson O’Dell",
+        "Audrey Van Beek",
+        "Elliece Van Beek",
+        "Katherine Wunder"
+      ],
+      "size_type": "small group",
+      "level": "Competitive",
+      "category": "unknown",
+      "age_group": "12-14",
+      "choreographer": "TBD"
+    },
+    {
+      "routine_name": "MIB",
+      "dancers": [
+        "Milania Baron",
+        "Juliette Batycki",
+        "Olivia Batycki",
+        "Betty Batycki",
+        "Paislee Bledsoe",
+        "Lily Bonini",
+        "Eowyn Brown",
+        "Maya Carmenates",
+        "Adelyn Collins-Price",
+        "Anna-Jane Compton",
+        "Chloe Constantine",
+        "Vivian Covington-Kolb",
+        "Caroline Cox",
+        "Margaret Davis",
+        "Avery Daw",
+        "Olivia Deldevert",
+        "Verni Fairchilds",
+        "Jasmine Gilchrist",
+        "Anna Green",
+        "Mary G Gullic",
+        "Mady Hickerson",
+        "Stassi Holland",
+        "Hailey Inman",
+        "June Jenkins",
+        "Jaidyn Johnson",
+        "Hudsen Jones",
+        "Emberlee Kellough",
+        "Ireland Kellough",
+        "Chapel Lyle",
+        "Emmaline Martin",
+        "Natalie Martin",
+        "Lillian Martin",
+        "Olivia Martin",
+        "Hayden Moser",
+        "Ella Mulligan",
+        "Emerson O’Dell",
+        "Emily Parker",
+        "Camden Picciuto",
+        "Charlotte Piechowiak",
+        "Ella Piechowiak",
+        "Avianna Porter",
+        "Neve Racela",
+        "Summer Racela",
+        "Sabrina Rhoads",
+        "Natalie Sensiba",
+        "Lila Sensiba",
+        "Kennedy Sisk",
+        "Quynn Snyder",
+        "Ava Sommese",
+        "Allie State",
+        "Hazel State",
+        "Norah Stratton",
+        "Audrey Van Beek",
+        "Elliece Van Beek",
+        "Rosalie Van Beek",
+        "Vivienne VanBeek",
+        "Mya Wright",
+        "Katherine Wunder"
+      ],
+      "size_type": "production/grand line/line context",
+      "level": "Competitive/Premier context",
+      "category": "Production/Open",
+      "age_group": "12 & Over / full company ecosystem",
+      "choreographer": "Madison Kellough + Kate Brown"
+    },
+    {
+      "routine_name": "Stand Up For Love",
+      "dancers": [
+        "Lily Bonini",
+        "Eowyn Brown",
+        "Chloe Constantine",
+        "Verni Fairchilds",
+        "Jasmine Gilchrist",
+        "June Jenkins",
+        "Lillian Martin",
+        "Neve Racela",
+        "Allie State",
+        "Audrey Van Beek",
+        "Madden Walker"
+      ],
+      "size_type": "large group/line context",
+      "level": "Competitive",
+      "category": "Lyrical/Contemporary context",
+      "age_group": "12-14",
+      "choreographer": "Kate Brown"
+    },
+    {
+      "routine_name": "Crazy",
+      "dancers": [
+        "Juliette Batycki",
+        "Olivia Batycki",
+        "Maya Carmenates",
+        "Anna-Jane Compton",
+        "Vivian Covington-Kolb",
+        "Mary G Gullic",
+        "Jaidyn Johnson",
+        "Emmaline Martin",
+        "Natalie Martin",
+        "Emily Parker",
+        "Summer Racela",
+        "Sabrina Rhoads",
+        "Quynn Snyder"
+      ],
+      "size_type": "small group",
+      "level": "Competitive/Premier",
+      "category": "Contemporary",
+      "age_group": "15-19 / Senior",
+      "choreographer": "Kate Brown"
+    },
+    {
+      "routine_name": "Fade",
+      "dancers": [
+        "Juliette Batycki",
+        "Olivia Batycki",
+        "Maya Carmenates",
+        "Anna-Jane Compton",
+        "Vivian Covington-Kolb",
+        "Mary G Gullic",
+        "Jaidyn Johnson",
+        "Emmaline Martin",
+        "Natalie Martin",
+        "Emily Parker",
+        "Summer Racela",
+        "Sabrina Rhoads",
+        "Quynn Snyder"
+      ],
+      "size_type": "small group",
+      "level": "Competitive/Premier",
+      "category": "Jazz",
+      "age_group": "15-19 / Senior",
+      "choreographer": "Kate Brown"
+    },
+    {
+      "routine_name": "Topsy Turvy",
+      "dancers": [
+        "Caroline Cox",
+        "Arianna Eke",
+        "Olivia Farinella-Lakadosch",
+        "Chapel Lyle",
+        "Jayden Marshall",
+        "Ella Piechowiak"
+      ],
+      "size_type": "small group",
+      "level": "Showcase",
+      "category": "Musical Theater/Open context",
+      "age_group": "12-14",
+      "choreographer": "Madison Kellough"
+    },
+    {
+      "routine_name": "Heaven I Know",
+      "dancers": [
+        "Olivia Deldevert",
+        "Ella Mulligan",
+        "Emerson O’Dell",
+        "Avianna Porter",
+        "Elliece Van Beek",
+        "Katherine Wunder"
+      ],
+      "size_type": "small group",
+      "level": "Competitive",
+      "category": "Contemporary",
+      "age_group": "12-14",
+      "choreographer": "Josie"
+    },
+    {
+      "routine_name": "Supercali",
+      "dancers": [
+        "Juliette Batycki",
+        "Olivia Batycki",
+        "Maya Carmenates",
+        "Vivian Covington-Kolb",
+        "Emmaline Martin",
+        "Natalie Martin",
+        "Emily Parker",
+        "Summer Racela",
+        "Sabrina Rhoads",
+        "Quynn Snyder",
+        "Ava Sommese"
+      ],
+      "size_type": "large group/line context",
+      "level": "Competitive",
+      "category": "Musical Theater",
+      "age_group": "15-19",
+      "choreographer": "Madison Kellough"
+    },
+    {
+      "routine_name": "White Lies",
+      "dancers": [
+        "Natalie Martin"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Contemporary",
+      "age_group": "15",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "Skinny Love",
+      "dancers": [
+        "Summer Racela"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Contemporary",
+      "age_group": "15",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "Bang Bang",
+      "dancers": [
+        "Jaidyn Johnson"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Contemporary",
+      "age_group": "16",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "Shoulder to Shoulder",
+      "dancers": [
+        "Mary G Gullic"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Contemporary",
+      "age_group": "16",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "Dragonfly",
+      "dancers": [
+        "Ava Sommese"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Ballet",
+      "age_group": "17-19",
+      "choreographer": "Unknown"
+    },
+    {
+      "routine_name": "Dare",
+      "dancers": [
+        "Emily Parker"
+      ],
+      "size_type": "solo",
+      "level": "Competitive",
+      "category": "Jazz",
+      "age_group": "17",
+      "choreographer": "Unknown"
+    }
+  ]
+}

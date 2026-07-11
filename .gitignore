@@ -1,0 +1,9 @@
+# Local Jellyfin audit exports (server paths, not for git)
+jellyfin-video-audit.csv
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
