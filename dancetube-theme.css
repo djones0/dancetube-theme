@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   DANCETUBE THEME v2.4
+   DANCETUBE THEME v2.4.1
    ========================================================= */
 
 :root {
@@ -289,6 +289,13 @@ a:hover {
   margin: 0 auto !important;
 }
 
+#loginPage .visualLoginForm .button-flat,
+#loginPage .manualLoginForm .button-flat {
+  width: auto !important;
+  display: inline-block !important;
+  margin: 8px auto 0 !important;
+}
+
 /* =========================================================
    PANELS / DIALOGS
    ========================================================= */
@@ -502,23 +509,41 @@ html {
   }
 }
 
-/* Shrink and square (or round) cast thumbnails */
-#castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
-#castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
+/* =========================================================
+   CAST — compact round headshots
+   ========================================================= */
 
-/* Correct image aspect ratio behavior, set border-radius to zero for square tiles */
-#castContent .cardContent-button.cardImageContainer.coveredImage.cardContent.cardContent-shadow.itemAction.lazy {background-size: cover; !important; border-radius: 2.5cm;}
-#castContent .cardContent-button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground1.cardContent.cardContent-shadow.itemAction {background-size: cover; !important; border-radius: 2.5cm;}
-#castContent .cardContent-button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground2.cardContent.cardContent-shadow.itemAction {background-size: cover; !important; border-radius: 2.5cm;}
-#castContent .cardContent-button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground3.cardContent.cardContent-shadow.itemAction {background-size: cover; !important; border-radius: 2.5cm;}
-#castContent .cardContent-button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground4.cardContent.cardContent-shadow.itemAction {background-size: cover; !important; border-radius: 2.5cm;}
-#castContent .cardContent-button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground5.cardContent.cardContent-shadow.itemAction {background-size: cover; !important; border-radius: 2.5cm;}
-#castContent .cardScalable {width: 3.8cm !important; height: 3.8cm !important; border-radius: 2.5cm;}
-#castContent .cardOverlayContainer.itemAction {border-radius: 2.5cm;}
+#castContent .card.overflowPortraitCard.personCard.card-withuserdata {
+  width: 4.2cm !important;
+  font-size: 90% !important;
+}
 
-/* Center the mouseover buttons */
-#castContent .cardOverlayButton-br {bottom: 4%; right: 15%; width: 70%;}
-#castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {margin:auto;}
+#castContent .cardScalable {
+  width: 3.8cm !important;
+  height: 3.8cm !important;
+}
+
+/* Beat the global .cardImageContainer radius with higher specificity + !important */
+#castContent .cardImageContainer,
+#castContent .cardOverlayContainer,
+#castContent .cardScalable {
+  border-radius: 50% !important;
+}
+
+#castContent .cardContent-button.cardImageContainer {
+  background-size: cover !important;
+  background-position: center top !important;
+}
+
+#castContent .cardOverlayButton-br {
+  bottom: 4% !important;
+  right: 15% !important;
+  width: 70% !important;
+}
+
+#castContent .cardOverlayButton.cardOverlayButton-hover {
+  margin: auto !important;
+}
 
 #castCollapsible {
   display: block !important;

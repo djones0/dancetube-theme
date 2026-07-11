@@ -4,6 +4,10 @@ Custom Jellyfin CSS for the DanceTube brand.
 
 ## Usage
 
-In Jellyfin → Dashboard → Branding → Custom CSS, use:
+In Jellyfin → Dashboard → Branding → Custom CSS, paste:
 
-@import url("https://cdn.jsdelivr.net/gh/YOURNAME/dancetube-theme@main/dancetube-theme.css?v=1");
+```css
+@import url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/dancetube-theme.css?v=2.4.1");
+```
+
+Bump the `?v=` query when you update the theme so browsers and jsDelivr pick up the new file.
