@@ -324,7 +324,7 @@ a:hover {
     linear-gradient(180deg, #080808 0%, #000000 100%) !important;
 }
 
-#loginPage .padded-left.padded-right.flex.align-items-center.justify-content-center {
+#loginPage .padded-left.padded-right.padded-bottom-page.margin-auto-y {
   display: flex !important;
   flex-direction: column !important;
   align-items: stretch !important;
@@ -335,14 +335,19 @@ a:hover {
   padding: var(--dt-space-6) var(--dt-space-4) !important;
 }
 
-#loginPage .padded-left.padded-right.flex.align-items-center.justify-content-center::before {
+#loginPage .padded-left.padded-right.padded-bottom-page.margin-auto-y::before {
   content: "";
   display: block;
   width: 100%;
   height: 96px;
-  margin: 0 0 var(--dt-space-2) 0;
+  margin: 0;
   background: var(--dt-logo-banner) center center / contain no-repeat;
   flex-shrink: 0;
+}
+
+#loginPage .padded-left.padded-right.flex.align-items-center.justify-content-center::before {
+  content: none !important;
+  display: none !important;
 }
 
 #loginPage h1,
@@ -410,6 +415,25 @@ a:hover {
 
 #loginPage .visualLoginForm .card {
   margin: 0 auto !important;
+}
+
+#loginPage .readOnlyContent {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: var(--dt-space-3) !important;
+  width: 100% !important;
+}
+
+#loginPage .readOnlyContent .emby-button {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+#loginPage .manualLoginForm .btnCancel,
+#loginPage .manualLoginForm .cancel {
+  width: 100% !important;
+  margin: 0 !important;
 }
 
 #loginPage input[type="checkbox"] {
@@ -691,11 +715,11 @@ html {
     padding-top: calc(var(--dt-header-logo-h) + var(--dt-header-tab-h) + var(--dt-space-5)) !important;
   }
 
-  #loginPage .padded-left.padded-right.flex.align-items-center.justify-content-center {
+  #loginPage .padded-left.padded-right.padded-bottom-page.margin-auto-y {
     padding: var(--dt-space-5) var(--dt-space-3) !important;
   }
 
-  #loginPage .padded-left.padded-right.flex.align-items-center.justify-content-center::before {
+  #loginPage .padded-left.padded-right.padded-bottom-page.margin-auto-y::before {
     height: 72px;
   }
 
