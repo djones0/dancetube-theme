@@ -17,19 +17,32 @@ DEFAULT_SERVER = "http://192.168.10.96:8096"
 DEFAULT_ROSTER = Path(__file__).resolve().parent / "data" / "aedc_roster.json"
 
 # First-name / spelling variants -> canonical Jellyfin person name.
+# Aubrey stays first-name only (user: Aubrey == Aubree == Aubrie Childers).
 CANONICAL_NAMES: dict[str, str] = {
     "hudsen": "Hudsen Jones",
     "aubrey": "Aubrey",
     "aubree": "Aubrey",
     "aubrie": "Aubrey",
-    "dawson": "Dawson",
-    "marley": "Marlee",
-    "marlee": "Marlee",
-    "melania": "Melania",
-    "milania": "Melania",
-    "paislee": "Paislee",
-    "rosie": "Rosie",
-    "rosalie": "Rosie",
+    "dawson": "Dawson Brown",
+    "marley": "Marlee Martin",
+    "marlee": "Marlee Martin",
+    "melania": "Milania Baron",
+    "milania": "Milania Baron",
+    "paislee": "Paislee Bledsoe",
+    "rosie": "Rosalie Van Beek",
+    "rosalie": "Rosalie Van Beek",
+}
+
+# Legacy short person names still present in Jellyfin cast lists.
+LEGACY_PERSON_RENAMES: dict[str, str] = {
+    "Dawson": "Dawson Brown",
+    "Marlee": "Marlee Martin",
+    "Melania": "Milania Baron",
+    "Paislee": "Paislee Bledsoe",
+    "Rosie": "Rosalie Van Beek",
+    "Aubree": "Aubrey",
+    "Aubrie": "Aubrey",
+    "Marley": "Marlee Martin",
 }
 
 ITEM_FIELDS = (
@@ -109,12 +122,47 @@ def normalize(text: str) -> str:
 
 
 def canonical_person_name(full_name: str) -> str:
+    if full_name in LEGACY_PERSON_RENAMES:
+        return LEGACY_PERSON_RENAMES[full_name]
     first = full_name.split()[0].lower()
     if first in CANONICAL_NAMES:
         return CANONICAL_NAMES[first]
     if full_name in CANONICAL_NAMES.values():
         return full_name
     return full_name
+
+
+def migrate_legacy_cast(client: JellyfinClient, persons: dict[str, Person]) -> int:
+    """Rewrite short cast names to full roster names and drop orphan person records."""
+    changed = 0
+    for item in client.get_videos():
+        people = item.get("People") or []
+        if not people:
+            continue
+        new_names = [canonical_person_name(p["Name"]) for p in people]
+        if new_names == [p["Name"] for p in people] and len(set(new_names)) == len(new_names):
+            continue
+        # Deduplicate while preserving order
+        seen: set[str] = set()
+        deduped: list[str] = []
+        for name in new_names:
+            if name in seen:
+                continue
+            seen.add(name)
+            deduped.append(name)
+        full = client.get_item(item["Id"])
+        full["People"] = people_for_names(deduped, persons)
+        client.update_item(full)
+        changed += 1
+        print(f"Renamed cast on: {item.get('Name')}")
+
+    # Delete leftover short person records once unused
+    persons = client.get_persons()
+    for old_name in list(LEGACY_PERSON_RENAMES):
+        if old_name in persons and LEGACY_PERSON_RENAMES[old_name] != old_name:
+            client.delete_person(persons[old_name].id)
+            print(f"Deleted legacy person: {old_name}")
+    return changed
 
 
 def load_routine_cast(roster_path: Path) -> dict[str, set[str]]:
@@ -298,6 +346,11 @@ def main() -> int:
     parser.add_argument("--api-key", required=True)
     parser.add_argument("--roster", type=Path, default=DEFAULT_ROSTER)
     parser.add_argument("--merge-aubrey", action="store_true", help="Merge Aubree person into Aubrey")
+    parser.add_argument(
+        "--expand-names",
+        action="store_true",
+        help="Rewrite short cast names (Dawson, Melania, …) to full roster names",
+    )
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args()
 
@@ -309,13 +362,15 @@ def main() -> int:
     routine_cast = load_routine_cast(args.roster)
     matchers = build_routine_matchers(routine_cast)
 
-    if args.merge_aubrey and args.apply:
+    if args.apply and args.merge_aubrey:
         persons = client.get_persons()
         merge_aubree_into_aubrey(client, persons)
-        persons = client.get_persons()
-    else:
-        persons = client.get_persons()
 
+    if args.apply and args.expand_names:
+        persons = client.get_persons()
+        migrate_legacy_cast(client, persons)
+
+    persons = client.get_persons()
     videos = client.get_videos()
     plans = plan_updates(videos, persons, routine_cast, matchers)
 
@@ -330,7 +385,7 @@ def main() -> int:
         print(f"  after:  {plan['after']} ({len(plan['after'])})\n")
 
     if not args.apply:
-        print("Dry run. Re-run with --apply --merge-aubrey to write changes.")
+        print("Dry run. Re-run with --apply [--expand-names] [--merge-aubrey] to write changes.")
         return 0
 
     ok = 0
