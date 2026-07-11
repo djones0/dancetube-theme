@@ -7,7 +7,7 @@ Custom Jellyfin CSS for the AEDC Tube brand — black background, red accents, g
 In Jellyfin → Dashboard → Branding → Custom CSS, paste:
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/dancetube-theme.css?v=3.3");
+@import url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/dancetube-theme.css?v=3.4");
 ```
 
 Bump the `?v=` query when you update the theme so browsers and jsDelivr pick up the new file.

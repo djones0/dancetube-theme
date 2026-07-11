@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   AEDC TUBE THEME v3.3
+   AEDC TUBE THEME v3.4
    ========================================================= */
 
 :root {
@@ -521,6 +521,60 @@ a:hover {
   display: block !important;
 }
 
+/* Card hover actions — compact icons, stay inside thumbnail frame */
+.card .cardOverlayContainer {
+  overflow: visible !important;
+  box-sizing: border-box !important;
+  padding: 0 4px 4px !important;
+}
+
+.card .cardOverlayButton,
+.card .cardOverlayButton-br,
+.card .cardOverlayButton-bl {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.card .cardOverlayButton-br {
+  right: 4px !important;
+  bottom: 4px !important;
+  left: 4px !important;
+  width: auto !important;
+  max-width: calc(100% - 8px) !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  gap: 4px !important;
+}
+
+.card .cardOverlayContainer .emby-button,
+.card .cardOverlayContainer .paper-icon-button-light,
+.card .cardOverlayButton .emby-button,
+.card .cardOverlayButton .paper-icon-button-light {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-width: 2rem !important;
+  min-height: 2rem !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  flex-shrink: 0 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+}
+
+.card:hover .cardBox,
+.card:focus-within .cardBox {
+  overflow: visible !important;
+  z-index: 3 !important;
+}
+
+.card:hover .cardImageContainer,
+.card:focus-within .cardImageContainer {
+  overflow: visible !important;
+}
+
 /* DO NOT TOUCH PLAYER CONTROLS / OSD / VIDEO ELEMENTS */
 
 /* =========================================================
@@ -645,6 +699,14 @@ html {
   transform: none !important;
   margin-right: 6px !important;
   margin-bottom: 6px !important;
+}
+
+.libraryPage .MuiButton-contained,
+.libraryPage .MuiButton-containedPrimary {
+  background: rgba(12, 12, 12, 0.95) !important;
+  color: var(--dt-heading) !important;
+  border: 1px solid rgba(var(--dt-accent-rgb), 0.32) !important;
+  box-shadow: none !important;
 }
 
 .libraryPage .btnNew,
