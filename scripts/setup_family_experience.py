@@ -189,12 +189,14 @@ def configure_collection_sections(client: Client, *, apply: bool) -> None:
 
 def configure_home_screen_sections(client: Client, *, apply: bool) -> None:
     config = client.get_plugin_config(HSS_PLUGIN_ID)
-    by_id = {entry["SectionId"]: entry for entry in config.get("SectionSettings", [])}
 
-    def upsert(section_id: str, *, order: int, view_mode: str = "Landscape", enabled: bool = True) -> None:
-        entry = by_id.get(section_id, {"SectionId": section_id})
-        entry.update(
+    # Replace stale/duplicate registrations with a clean set only.
+    section_settings: list[dict] = []
+
+    def add(section_id: str, *, order: int, view_mode: str = "Landscape", enabled: bool = True) -> None:
+        section_settings.append(
             {
+                "SectionId": section_id,
                 "Enabled": enabled,
                 "AllowUserOverride": False,
                 "LowerLimit": 1,
@@ -204,29 +206,20 @@ def configure_home_screen_sections(client: Client, *, apply: bool) -> None:
                 "HideWatchedItems": False,
             }
         )
-        by_id[section_id] = entry
 
-    # One block of competition rows (videos grouped by event/collection).
+    # Library tiles row — always works even when collections need rebuilding.
+    add("MyMedia", order=5, view_mode="Landscape")
     for _, section_id in COMPETITION_COLLECTIONS:
-        upsert(section_id, order=10, view_mode="Landscape")
-    # Dancers / People row.
-    upsert("dancers", order=20, view_mode="Portrait")
-    # Optional resume row at bottom.
-    upsert("ContinueWatching", order=30, enabled=True)
-    # Library tiles row — enable after competition files live in per-event libraries.
-    upsert("MyMedia", order=5, view_mode="Landscape", enabled=False)
+        add(section_id, order=10, view_mode="Landscape")
+    add("dancers", order=20, view_mode="Portrait")
+    add("ContinueWatching", order=30)
 
-    # Disable noisy defaults.
-    for section_id in ("RecentlyAddedMedia", "NextUp", "MyList", "LatestMedia"):
-        if section_id in by_id:
-            by_id[section_id]["Enabled"] = False
-
-    config["SectionSettings"] = list(by_id.values())
+    config["SectionSettings"] = section_settings
     config["Enabled"] = True
     config["AllowUserOverride"] = False
 
     print("\nHome Screen Sections:")
-    for entry in sorted(by_id.values(), key=lambda x: x.get("OrderIndex", 999)):
+    for entry in section_settings:
         if entry.get("Enabled"):
             print(f"  [{entry.get('OrderIndex'):>2}] {entry.get('SectionId')} ({entry.get('ViewMode')})")
 
@@ -234,6 +227,18 @@ def configure_home_screen_sections(client: Client, *, apply: bool) -> None:
         client.set_plugin_config(HSS_PLUGIN_ID, config)
         client.bust_hss_cache()
         print("  Saved Home Screen Sections config and busted cache")
+
+
+def enable_modular_home(client: Client, *, apply: bool) -> None:
+    print("\nModular Home (useModularHome) for all users:")
+    for user in client.get_users():
+        print(f"  {user['Name']}")
+        if not apply:
+            continue
+        query = urllib.parse.urlencode({"userId": user["Id"], "client": "emby"})
+        prefs = json.loads(client._call("GET", f"/DisplayPreferences/usersettings?{query}"))
+        prefs.setdefault("CustomPrefs", {})["useModularHome"] = "true"
+        client._call("POST", f"/DisplayPreferences/usersettings?{query}", prefs)
 
 
 def update_family_users(client: Client, *, apply: bool) -> None:
@@ -290,6 +295,7 @@ def main() -> int:
     ensure_collections(client, buckets, apply=args.apply)
     configure_collection_sections(client, apply=args.apply)
     configure_home_screen_sections(client, apply=args.apply)
+    enable_modular_home(client, apply=args.apply)
     update_family_users(client, apply=args.apply)
 
     if not args.apply:
