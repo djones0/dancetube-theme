@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   AEDC TUBE THEME v3.6
+   AEDC TUBE THEME v3.7
    ========================================================= */
 
 :root {
@@ -219,6 +219,7 @@ a:hover {
   border-right: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 
+/* Keep brand logo only in the dedicated sidebar header slot — never on nav buttons. */
 .imgLogoIcon,
 .sidebarLogo img,
 .sidebarLogo .imgLogoIcon,
@@ -248,29 +249,18 @@ a:hover {
   z-index: 4;
 }
 
-.mainDrawer a:first-of-type,
-.adminDrawer a:first-of-type {
-  position: relative !important;
-}
-
-.mainDrawer a:first-of-type::before,
-.adminDrawer a:first-of-type::before {
-  content: "";
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 32px;
-  height: 32px;
-  background: var(--dt-logo-icon) center / contain no-repeat !important;
-  z-index: 4;
-}
-
-.sidebarLogo a,
-.adminDrawerLogo a,
-.mainDrawer a:first-of-type,
-.adminDrawer a:first-of-type {
-  padding-left: 48px !important;
+/* Kill library/channel thumbnails on drawer links (they were showing AEDC squares). */
+.mainDrawer .navMenuOption .listItemImage,
+.adminDrawer .navMenuOption .listItemImage,
+.mainDrawer .navMenuOption .cardImageContainer,
+.adminDrawer .navMenuOption .cardImageContainer,
+.mainDrawer .navMenuOption img,
+.adminDrawer .navMenuOption img,
+.mainDrawer .navMenuOption .channelImage,
+.adminDrawer .navMenuOption .channelImage,
+.mainDrawer .navMenuOption .primaryImage,
+.adminDrawer .navMenuOption .primaryImage {
+  display: none !important;
 }
 
 .mainDrawer .navMenuOption,
