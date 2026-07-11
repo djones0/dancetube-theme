@@ -11,7 +11,7 @@ This repo is code and assets only — not Jellyfin media. Videos stay on the NAS
 In Jellyfin → Dashboard → Branding → Custom CSS:
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/dancetube-theme.css?v=3.8");
+@import url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/dancetube-theme.css?v=3.9");
 ```
 
 Bump the `?v=` query when you update the theme so browsers and jsDelivr pick up the new file.
