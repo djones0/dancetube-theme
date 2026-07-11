@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   AEDC TUBE THEME v3.7
+   AEDC TUBE THEME v3.8
    ========================================================= */
 
 :root {
-  --dt-logo-banner: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-dancetube-banner.png");
-  --dt-logo-icon: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-dancetube-icon.png");
+  --dt-logo-banner: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-dancetube-banner.png?v=3.8");
+  --dt-logo-icon: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-dancetube-icon.png?v=3.8");
   --dt-logo: var(--dt-logo-banner);
   --dt-accent-rgb: 211, 16, 24;
   --dt-accent-dark-rgb: 139, 10, 16;
