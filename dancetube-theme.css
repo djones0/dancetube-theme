@@ -1,29 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   DANCETUBE THEME v2.4.1
+   AEDC TUBE THEME v3.0
    ========================================================= */
 
 :root {
-  --dt-accent-rgb: 183, 18, 255;
-  --dt-accent-soft: rgba(var(--dt-accent-rgb), 0.10);
-  --dt-accent-focus: rgba(var(--dt-accent-rgb), 0.32);
-  --dt-border: rgba(255, 255, 255, 0.08);
+  --dt-logo: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-tube-logo.png");
+  --dt-accent-rgb: 211, 16, 24;
+  --dt-accent-dark-rgb: 139, 10, 16;
+  --dt-accent-soft: rgba(var(--dt-accent-rgb), 0.12);
+  --dt-accent-focus: rgba(var(--dt-accent-rgb), 0.45);
+  --dt-border: rgba(var(--dt-accent-rgb), 0.14);
 
-  --dt-bg: #08080c;
-  --dt-bg-overlay: rgba(8, 8, 12, 0.94);
-  --dt-bg-elevated: rgba(14, 14, 20, 0.88);
-  --dt-bg-dialog: rgba(18, 18, 26, 0.94);
-  --dt-panel: rgba(17, 17, 24, 0.88);
+  --dt-bg: #000000;
+  --dt-bg-overlay: rgba(0, 0, 0, 0.94);
+  --dt-bg-elevated: rgba(12, 12, 12, 0.92);
+  --dt-bg-dialog: rgba(16, 16, 16, 0.96);
+  --dt-panel: rgba(10, 10, 10, 0.90);
 
-  --dt-text: #f6f3fb;
-  --dt-muted: #c9bdd8;
+  --dt-text: #ffffff;
+  --dt-muted: rgba(255, 255, 255, 0.62);
 
-  --dt-radius: 12px;
-  --dt-radius-lg: 16px;
-  --dt-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  --dt-radius: 10px;
+  --dt-radius-lg: 14px;
+  --dt-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
 
-  --dt-scrollbar-thumb: rgba(183, 18, 255, 0.26);
+  --dt-scrollbar-thumb: rgba(var(--dt-accent-rgb), 0.35);
   --dt-transition: 0.15s ease;
 }
 
@@ -56,8 +58,8 @@ body,
 .backgroundContainer.withBackdrop,
 .layout-tv .backgroundContainer {
   background:
-    radial-gradient(circle at top left, rgba(var(--dt-accent-rgb), 0.12), transparent 26%),
-    linear-gradient(180deg, #0d0c12 0%, #08080c 100%) !important;
+    radial-gradient(circle at top left, rgba(var(--dt-accent-rgb), 0.10), transparent 28%),
+    linear-gradient(180deg, #0a0a0a 0%, #000000 100%) !important;
 }
 
 .backdropImage {
@@ -96,10 +98,10 @@ a:hover {
    ========================================================= */
 
 .skinHeader {
-  background: linear-gradient(180deg, var(--dt-bg-overlay), rgba(8, 8, 12, 0.45)) !important;
+  background: linear-gradient(180deg, var(--dt-bg-overlay), rgba(0, 0, 0, 0.55)) !important;
   -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+  border-bottom: 1px solid rgba(var(--dt-accent-rgb), 0.18) !important;
   position: relative !important;
   min-height: 118px !important;
   padding-bottom: 10px !important;
@@ -109,18 +111,33 @@ a:hover {
   content: "";
   position: absolute;
   left: 50%;
-  top: 10px;
+  top: 8px;
   transform: translateX(-50%);
-  width: 360px;
-  max-width: 42vw;
-  height: 76px;
-  background: url("https://assets.venjones.com/dancetube3.png") center / contain no-repeat;
+  width: 220px;
+  max-width: 38vw;
+  height: 88px;
+  background: var(--dt-logo) center / contain no-repeat;
   pointer-events: none;
   z-index: 2;
 }
 
 .headerTabs {
   margin-top: 34px !important;
+}
+
+.headerTabs .emby-tab-button,
+.headerTabs .button-tab {
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: var(--dt-text) !important;
+  border: 1px solid rgba(var(--dt-accent-rgb), 0.18) !important;
+}
+
+.headerTabs .emby-tab-button.emby-tab-button-active,
+.headerTabs .emby-tab-button[aria-selected="true"],
+.headerTabs .button-tab.active {
+  background: linear-gradient(180deg, rgba(var(--dt-accent-rgb), 0.95), rgba(var(--dt-accent-dark-rgb), 0.98)) !important;
+  border-color: rgba(var(--dt-accent-rgb), 0.55) !important;
+  color: #ffffff !important;
 }
 
 .headerButton,
@@ -183,9 +200,9 @@ a:hover {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  width: 24px;
-  height: 24px;
-  background: url("https://assets.venjones.com/dancetube-logo.png") center / contain no-repeat !important;
+  width: 32px;
+  height: 32px;
+  background: var(--dt-logo) center / contain no-repeat !important;
   z-index: 4;
 }
 
@@ -201,9 +218,9 @@ a:hover {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  width: 24px;
-  height: 24px;
-  background: url("https://assets.venjones.com/dancetube-logo.png") center / contain no-repeat !important;
+  width: 32px;
+  height: 32px;
+  background: var(--dt-logo) center / contain no-repeat !important;
   z-index: 4;
 }
 
@@ -250,18 +267,18 @@ a:hover {
 
 #loginPage {
   background:
-    radial-gradient(circle at top left, rgba(var(--dt-accent-rgb), 0.16), transparent 24%),
-    linear-gradient(180deg, #0b0a10 0%, #08080c 100%) !important;
+    radial-gradient(circle at top left, rgba(var(--dt-accent-rgb), 0.14), transparent 26%),
+    linear-gradient(180deg, #080808 0%, #000000 100%) !important;
 }
 
 #loginPage .padded-left.padded-right.flex.align-items-center.justify-content-center::before {
   content: "";
   display: block;
-  width: 420px;
+  width: 320px;
   max-width: 85vw;
-  height: 170px;
+  height: 140px;
   margin: 0 auto 16px auto;
-  background: url("https://assets.venjones.com/dancetube3.png") center center / contain no-repeat;
+  background: var(--dt-logo) center center / contain no-repeat;
 }
 
 #loginPage h1,
@@ -294,6 +311,10 @@ a:hover {
   width: auto !important;
   display: inline-block !important;
   margin: 8px auto 0 !important;
+}
+
+#loginPage input[type="checkbox"] {
+  accent-color: rgb(var(--dt-accent-rgb)) !important;
 }
 
 /* =========================================================
@@ -348,9 +369,10 @@ a:hover {
 .emby-button,
 .button-submit,
 .raised {
-  background: linear-gradient(180deg, rgba(var(--dt-accent-rgb), 0.92), rgba(100, 5, 175, 0.96)) !important;
+  background: linear-gradient(180deg, rgba(var(--dt-accent-rgb), 0.95), rgba(var(--dt-accent-dark-rgb), 0.98)) !important;
   color: white !important;
   border: none !important;
+  box-shadow: 0 4px 14px rgba(var(--dt-accent-rgb), 0.28) !important;
 }
 
 .emby-button:hover,
@@ -478,9 +500,10 @@ html {
   }
 
   .skinHeader::after {
-    height: 48px;
+    height: 56px;
+    width: 160px;
     top: 6px;
-    max-width: 60vw;
+    max-width: 55vw;
   }
 
   .headerTabs {
@@ -492,7 +515,8 @@ html {
   }
 
   #loginPage .padded-left.padded-right.flex.align-items-center.justify-content-center::before {
-    height: 110px;
+    height: 96px;
+    width: 260px;
     margin-bottom: 12px;
   }
 
@@ -509,9 +533,25 @@ html {
   }
 }
 
+.sectionTitle,
+.sectionTitleContainer-cards .sectionTitle {
+  color: var(--dt-text) !important;
+  letter-spacing: 0.01em !important;
+}
+
+.sectionTitleContainer-cards {
+  border-left: 3px solid rgb(var(--dt-accent-rgb)) !important;
+  padding-left: 10px !important;
+}
+
 /* =========================================================
    CAST — compact round headshots
    ========================================================= */
+
+#castContent {
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+}
 
 #castContent .card.overflowPortraitCard.personCard.card-withuserdata {
   width: 4.2cm !important;
