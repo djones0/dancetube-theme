@@ -18,12 +18,13 @@ from setup_competition_libraries import COMP_ROOT, classify_competition  # noqa:
 DEFAULT_SERVER = "http://192.168.10.96:8096"
 COMPETITION_ROOT = "/media/Competition2026"
 
+# Newest competition first on home (Believe Nationals → … → In10sity).
 COMPETITION_COLLECTIONS = (
-    ("In10sity 2026", "In10sity2026"),
-    ("ID 2026", "ID2026"),
-    ("Starpower 2026", "Starpower2026"),
-    ("Believe 2026", "Believe2026"),
     ("Believe Nationals 2026", "BelieveNationals2026"),
+    ("Believe 2026", "Believe2026"),
+    ("Starpower 2026", "Starpower2026"),
+    ("ID 2026", "ID2026"),
+    ("In10sity 2026", "In10sity2026"),
 )
 
 HSS_PLUGIN_ID = "b8298e012697407ab44daa8dc795e850"
@@ -209,8 +210,9 @@ def configure_home_screen_sections(client: Client, *, apply: bool) -> None:
 
     # Library tiles row — always works even when collections need rebuilding.
     add("MyMedia", order=5, view_mode="Landscape")
-    for _, section_id in COMPETITION_COLLECTIONS:
-        add(section_id, order=10, view_mode="Landscape")
+    # Competition rows: newest event highest on page (lower OrderIndex = higher).
+    for index, (_, section_id) in enumerate(COMPETITION_COLLECTIONS):
+        add(section_id, order=10 + index, view_mode="Landscape")
     add("dancers", order=20, view_mode="Portrait")
     add("ContinueWatching", order=30)
 
@@ -268,7 +270,13 @@ def update_family_users(client: Client, *, apply: bool) -> None:
 
         full = client.get_user(user["Id"])
         config = full.get("Configuration") or {}
-        comp_ids = [libs[n] for n in ("In10sity", "ID", "Starpower", "Believe", "Believe Nationals") if n in libs]
+        comp_ids = [libs[n] for n in (
+            "Believe Nationals",
+            "Believe",
+            "Starpower",
+            "ID",
+            "In10sity",
+        ) if n in libs]
         config["OrderedViews"] = comp_ids + [libs["People"]] if "People" in libs else comp_ids
         config["GroupedFolders"] = []
         config["DisplayCollectionsView"] = False
