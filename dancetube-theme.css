@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   AEDC TUBE THEME v3.5
+   AEDC TUBE THEME v3.6
    ========================================================= */
 
 :root {
-  --dt-logo: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-dancetube-banner.png");
+  --dt-logo-banner: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-dancetube-banner.png");
+  --dt-logo-icon: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-dancetube-icon.png");
+  --dt-logo: var(--dt-logo-banner);
   --dt-accent-rgb: 211, 16, 24;
   --dt-accent-dark-rgb: 139, 10, 16;
   --dt-accent-soft: rgba(var(--dt-accent-rgb), 0.12);
@@ -154,7 +156,7 @@ a:hover {
   width: 420px;
   max-width: 72vw;
   height: 72px;
-  background: var(--dt-logo) center / contain no-repeat;
+  background: var(--dt-logo-banner) center / contain no-repeat;
   pointer-events: none;
   z-index: 2;
 }
@@ -240,9 +242,9 @@ a:hover {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  width: 44px;
-  height: 30px;
-  background: var(--dt-logo) center / contain no-repeat !important;
+  width: 32px;
+  height: 32px;
+  background: var(--dt-logo-icon) center / contain no-repeat !important;
   z-index: 4;
 }
 
@@ -258,9 +260,9 @@ a:hover {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  width: 44px;
-  height: 30px;
-  background: var(--dt-logo) center / contain no-repeat !important;
+  width: 32px;
+  height: 32px;
+  background: var(--dt-logo-icon) center / contain no-repeat !important;
   z-index: 4;
 }
 
@@ -319,7 +321,7 @@ a:hover {
   max-width: 92vw;
   height: 130px;
   margin: 0 auto 16px auto;
-  background: var(--dt-logo) center center / contain no-repeat;
+  background: var(--dt-logo-banner) center center / contain no-repeat;
 }
 
 #loginPage h1,
