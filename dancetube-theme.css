@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   AEDC TUBE THEME v3.2
+   AEDC TUBE THEME v3.3
    ========================================================= */
 
 :root {
@@ -407,7 +407,7 @@ a:hover {
   transition: filter var(--dt-transition), transform 0.1s ease, background var(--dt-transition), box-shadow var(--dt-transition) !important;
 }
 
-.emby-button,
+.emby-button.raised,
 .button-submit,
 .raised {
   background: linear-gradient(180deg, rgba(var(--dt-accent-rgb), 0.95), rgba(var(--dt-accent-dark-rgb), 0.98)) !important;
@@ -416,17 +416,36 @@ a:hover {
   box-shadow: 0 4px 14px rgba(var(--dt-accent-rgb), 0.28) !important;
 }
 
-.emby-button:hover,
+.emby-button.raised:hover,
 .button-submit:hover,
 .raised:hover {
   filter: brightness(1.12) !important;
 }
 
-.emby-button:active,
+.emby-button.raised:active,
 .button-submit:active,
 .raised:active {
   filter: brightness(0.88) !important;
   transform: scale(0.97) !important;
+}
+
+/* Default emby-button: neutral outline (not every button is primary) */
+.emby-button:not(.raised):not(.button-submit) {
+  background: rgba(255, 255, 255, 0.04) !important;
+  color: var(--dt-heading) !important;
+  border: 1px solid rgba(var(--dt-accent-rgb), 0.28) !important;
+  box-shadow: none !important;
+}
+
+.emby-button:not(.raised):not(.button-submit):hover {
+  background: rgba(var(--dt-accent-rgb), 0.12) !important;
+  border-color: rgba(var(--dt-accent-rgb), 0.5) !important;
+  filter: none !important;
+}
+
+.emby-button:not(.raised):not(.button-submit):active {
+  background: rgba(var(--dt-accent-rgb), 0.18) !important;
+  transform: none !important;
 }
 
 .button-flat {
@@ -596,6 +615,75 @@ html {
 .homeSectionsContainer .cardText-secondary,
 .itemsContainer .cardText-secondary {
   color: var(--dt-muted) !important;
+}
+
+/* =========================================================
+   LIBRARY TOOLBAR — Sort / Filter / New
+   ========================================================= */
+
+.libraryPage .listViewToolbar,
+.libraryPage .MuiToolbar-root {
+  gap: 8px !important;
+}
+
+.libraryPage .listViewToolbar .emby-button,
+.libraryPage .listViewToolbar .button-flat,
+.libraryPage .listViewToolbar .raised,
+.libraryPage .btnSort,
+.libraryPage .btnFilter,
+.libraryPage .btnNew,
+.libraryPage .btnViewSettings,
+.libraryPage .MuiButton-root {
+  border-radius: 4px !important;
+  min-height: 34px !important;
+  padding: 7px 14px !important;
+  font-size: var(--dt-font-size) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em !important;
+  box-shadow: none !important;
+  filter: none !important;
+  transform: none !important;
+  margin-right: 6px !important;
+  margin-bottom: 6px !important;
+}
+
+.libraryPage .btnNew,
+.libraryPage .listViewToolbar .btnNew,
+.libraryPage .listViewToolbar .emby-button.raised {
+  background: linear-gradient(180deg, rgba(var(--dt-accent-rgb), 0.95), rgba(var(--dt-accent-dark-rgb), 0.98)) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(var(--dt-accent-rgb), 0.55) !important;
+}
+
+.libraryPage .btnSort,
+.libraryPage .btnFilter,
+.libraryPage .btnViewSettings,
+.libraryPage .listViewToolbar .emby-button:not(.raised),
+.libraryPage .listViewToolbar .button-flat,
+.libraryPage .MuiButton-outlined,
+.libraryPage .MuiButton-text {
+  background: rgba(12, 12, 12, 0.95) !important;
+  color: var(--dt-heading) !important;
+  border: 1px solid rgba(var(--dt-accent-rgb), 0.32) !important;
+}
+
+.libraryPage .btnSort:hover,
+.libraryPage .btnFilter:hover,
+.libraryPage .btnViewSettings:hover,
+.libraryPage .listViewToolbar .emby-button:not(.raised):hover,
+.libraryPage .listViewToolbar .button-flat:hover,
+.libraryPage .MuiButton-outlined:hover,
+.libraryPage .MuiButton-text:hover {
+  background: rgba(var(--dt-accent-rgb), 0.14) !important;
+  border-color: rgba(var(--dt-accent-rgb), 0.55) !important;
+}
+
+.libraryPage .listPaging,
+.libraryPage .pagingInfo,
+.libraryPage .listTopPaging,
+.libraryPage .listBottomPaging {
+  color: var(--dt-muted) !important;
+  font-size: var(--dt-font-size-sm) !important;
 }
 
 /* =========================================================
