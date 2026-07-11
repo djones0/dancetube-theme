@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   AEDC TUBE THEME v3.4
+   AEDC TUBE THEME v3.5
    ========================================================= */
 
 :root {
-  --dt-logo: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-tube-logo.png");
+  --dt-logo: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-dancetube-banner.png");
   --dt-accent-rgb: 211, 16, 24;
   --dt-accent-dark-rgb: 139, 10, 16;
   --dt-accent-soft: rgba(var(--dt-accent-rgb), 0.12);
@@ -149,11 +149,11 @@ a:hover {
   content: "";
   position: absolute;
   left: 50%;
-  top: 8px;
+  top: 6px;
   transform: translateX(-50%);
-  width: 220px;
-  max-width: 38vw;
-  height: 88px;
+  width: 420px;
+  max-width: 72vw;
+  height: 72px;
   background: var(--dt-logo) center / contain no-repeat;
   pointer-events: none;
   z-index: 2;
@@ -240,8 +240,8 @@ a:hover {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  width: 32px;
-  height: 32px;
+  width: 44px;
+  height: 30px;
   background: var(--dt-logo) center / contain no-repeat !important;
   z-index: 4;
 }
@@ -258,8 +258,8 @@ a:hover {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  width: 32px;
-  height: 32px;
+  width: 44px;
+  height: 30px;
   background: var(--dt-logo) center / contain no-repeat !important;
   z-index: 4;
 }
@@ -315,9 +315,9 @@ a:hover {
 #loginPage .padded-left.padded-right.flex.align-items-center.justify-content-center::before {
   content: "";
   display: block;
-  width: 320px;
-  max-width: 85vw;
-  height: 140px;
+  width: 520px;
+  max-width: 92vw;
+  height: 130px;
   margin: 0 auto 16px auto;
   background: var(--dt-logo) center center / contain no-repeat;
 }
@@ -614,10 +614,10 @@ html {
   }
 
   .skinHeader::after {
-    height: 56px;
-    width: 160px;
+    height: 48px;
+    width: 280px;
     top: 6px;
-    max-width: 55vw;
+    max-width: 88vw;
   }
 
   .headerTabs {
@@ -629,8 +629,8 @@ html {
   }
 
   #loginPage .padded-left.padded-right.flex.align-items-center.justify-content-center::before {
-    height: 96px;
-    width: 260px;
+    height: 88px;
+    width: 320px;
     margin-bottom: 12px;
   }
 
