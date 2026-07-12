@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   AEDC TUBE THEME v3.11
+   AEDC TUBE THEME v3.12
    ========================================================= */
 
 :root {
@@ -975,4 +975,76 @@ html {
 
 #castCollapsible {
   display: block !important;
+}
+
+/* =========================================================
+   v3.12 — Mockup polish: cards, progress, login, media bar
+   ========================================================= */
+
+/* Hide broken single-letter visual-login chip on login page */
+#loginPage .visualLoginForm .card,
+#loginPage .visualLoginForm .cardScalable {
+  display: none !important;
+}
+
+/* My Media row — larger landscape tiles with maroon stripe pattern */
+.homePage .verticalSection:first-of-type .cardImage,
+.homeSectionsContainer .verticalSection:first-of-type .cardImage,
+.homePage .verticalSection:first-of-type .cardImageContainer,
+.homeSectionsContainer .verticalSection:first-of-type .cardImageContainer {
+  min-height: 140px !important;
+}
+
+.homePage .verticalSection:first-of-type .cardBox,
+.homeSectionsContainer .verticalSection:first-of-type .cardBox {
+  min-width: 200px !important;
+}
+
+.homePage .verticalSection:first-of-type .cardImageContainer.cardContent,
+.homeSectionsContainer .verticalSection:first-of-type .cardImageContainer.cardContent,
+.homePage .verticalSection:first-of-type .cardImageContainer:not(:has(img)),
+.homeSectionsContainer .verticalSection:first-of-type .cardImageContainer:not(:has(img)) {
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      rgba(var(--dt-accent-dark-rgb), 0.55) 0 10px,
+      rgba(var(--dt-accent-rgb), 0.35) 10px 20px
+    ),
+    linear-gradient(160deg, rgba(var(--dt-accent-dark-rgb), 0.9), rgba(0, 0, 0, 0.85)) !important;
+}
+
+/* Continue watching — red progress bars */
+.playbackProgressBar,
+.itemProgressBar,
+.itemProgressBarForeground {
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+
+.playbackProgressBar > div,
+.itemProgressBarForeground,
+.mdl-progress__bufferbar + .mdl-progress__bar,
+.progressBarForeground {
+  background: linear-gradient(90deg, rgb(var(--dt-accent-rgb)), rgba(var(--dt-accent-dark-rgb), 0.95)) !important;
+}
+
+/* Custom Tabs pills inherit header tab styling */
+.emby-tabs-slider .emby-tab-button[id^="customTabButton_"] {
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: var(--dt-text) !important;
+  border: 1px solid rgba(var(--dt-accent-rgb), 0.18) !important;
+  border-radius: var(--dt-radius) !important;
+}
+
+.emby-tabs-slider .emby-tab-button[id^="customTabButton_"].emby-tab-button-active {
+  background: linear-gradient(180deg, rgba(var(--dt-accent-rgb), 0.95), rgba(var(--dt-accent-dark-rgb), 0.98)) !important;
+  border-color: rgba(var(--dt-accent-rgb), 0.55) !important;
+  color: #ffffff !important;
+}
+
+/* Media Bar Enhanced — breathing room below header */
+#mediaBarEnhanced,
+.mediaBarEnhanced,
+.media-bar-enhanced,
+.featured-content-bar {
+  margin-bottom: var(--dt-space-5) !important;
 }
