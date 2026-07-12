@@ -219,6 +219,25 @@ a:hover {
   padding-top: calc(var(--dt-header-logo-h) + var(--dt-header-tab-h) + var(--dt-space-6)) !important;
 }
 
+body:has(#loginPage) .skinHeader {
+  display: none !important;
+  min-height: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  background: transparent !important;
+}
+
+body:has(#loginPage) .skinHeader::after {
+  content: none !important;
+  display: none !important;
+}
+
+body:has(#loginPage) .mainAnimatedPages {
+  padding-top: 0 !important;
+}
+
 .pageTitleWithLogo {
   background: none !important;
   min-height: 42px !important;
