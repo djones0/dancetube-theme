@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   AEDC TUBE THEME v3.10
+   AEDC TUBE THEME v3.11
    ========================================================= */
 
 :root {
@@ -44,7 +44,7 @@
 
   --dt-page-gutter: clamp(16px, 3.5vw, 40px);
   --dt-touch-target: 44px;
-  --dt-header-logo-h: 52px;
+  --dt-header-logo-h: 68px;
   --dt-header-tab-h: 36px;
 
   --dt-scrollbar-thumb: rgba(var(--dt-accent-rgb), 0.35);
@@ -167,7 +167,7 @@ a:hover {
   left: 50%;
   top: var(--dt-space-2);
   transform: translateX(-50%);
-  width: min(380px, 68vw);
+  width: min(460px, 78vw);
   height: var(--dt-header-logo-h);
   background: var(--dt-logo-banner) center / contain no-repeat;
   pointer-events: none;
@@ -724,7 +724,7 @@ html {
 
 @media (max-width: 600px) {
   :root {
-    --dt-header-logo-h: 40px;
+    --dt-header-logo-h: 52px;
     --dt-header-tab-h: 34px;
   }
 
@@ -734,7 +734,7 @@ html {
   }
 
   .skinHeader::after {
-    width: min(280px, 84vw);
+    width: min(340px, 86vw);
     top: var(--dt-space-1);
   }
 
