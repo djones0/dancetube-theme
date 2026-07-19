@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@400;500;600;700&display=swap');
 
 /* =========================================================
-   AEDC TUBE THEME v3.12
+   AEDC TUBE THEME v3.13
    ========================================================= */
 
 :root {
-  --dt-logo-banner: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-dancetube-banner.png?v=3.9");
-  --dt-logo-icon: url("https://cdn.jsdelivr.net/gh/djones0/dancetube-theme@master/assets/aedc-dancetube-icon.png?v=3.9");
+  --dt-logo-banner: url("./assets/aedc-dancetube-banner.png?v=3.13");
+  --dt-logo-icon: url("./assets/aedc-dancetube-icon.png?v=3.13");
   --dt-logo: var(--dt-logo-banner);
   --dt-accent-rgb: 211, 16, 24;
   --dt-accent-dark-rgb: 139, 10, 16;
@@ -978,12 +978,11 @@ html {
 }
 
 /* =========================================================
-   v3.12 — Mockup polish: cards, progress, login, media bar
+   v3.13 — Mockup polish: cards, progress, login, media bar
    ========================================================= */
 
-/* Hide broken single-letter visual-login chip on login page */
-#loginPage .visualLoginForm .card,
-#loginPage .visualLoginForm .cardScalable {
+/* Hide only broken text-placeholder chips; keep real visual user cards usable. */
+#loginPage .visualLoginForm .card:has(.cardDefaultText) {
   display: none !important;
 }
 
@@ -1000,10 +999,8 @@ html {
   min-width: 200px !important;
 }
 
-.homePage .verticalSection:first-of-type .cardImageContainer.cardContent,
-.homeSectionsContainer .verticalSection:first-of-type .cardImageContainer.cardContent,
-.homePage .verticalSection:first-of-type .cardImageContainer:not(:has(img)),
-.homeSectionsContainer .verticalSection:first-of-type .cardImageContainer:not(:has(img)) {
+.homePage .verticalSection:first-of-type .cardContent.defaultCardBackground,
+.homeSectionsContainer .verticalSection:first-of-type .cardContent.defaultCardBackground {
   background:
     repeating-linear-gradient(
       -45deg,
@@ -1047,4 +1044,16 @@ html {
 .media-bar-enhanced,
 .featured-content-bar {
   margin-bottom: var(--dt-space-5) !important;
+}
+
+/* Media Bar can create controls before any slides. Collapse that failed/empty
+   state so it cannot reserve most of the viewport and push home rows below it. */
+body:has(#slides-container):not(:has(#slides-container > .slide)) #slides-container {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+}
+
+body:has(#slides-container):not(:has(#slides-container > .slide)) .homeSectionsContainer {
+  top: calc(var(--dt-header-logo-h) + var(--dt-header-tab-h)) !important;
 }
